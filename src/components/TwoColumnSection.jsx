@@ -1,5 +1,5 @@
-// src/components/TwoColumnSection.jsx
 import React from "react";
+
 
 export default function TwoColumnSection({ leftHtml, rightHtml }) {
     return (
@@ -7,5 +7,5 @@ export default function TwoColumnSection({ leftHtml, rightHtml }) {
             <div className="col left" dangerouslySetInnerHTML={{ __html: leftHtml }} />
             <div className="col right" dangerouslySetInnerHTML={{ __html: rightHtml }} />
         </section>
-    );
+    )
 }

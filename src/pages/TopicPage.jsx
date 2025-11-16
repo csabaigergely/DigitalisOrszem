@@ -1,0 +1,41 @@
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase";
+import { marked } from "marked";
+import TwoColumn from "../components/TwoColumnSection";
+
+
+export default function TopicPage() {
+    const { slug } = useParams();
+    const [topic, setTopic] = useState(null);
+    const [loading, setLoading] = useState(true);
+
+
+    useEffect(() => {
+        async function load() {
+            const d = await getDoc(doc(db, "topics", slug));
+            if (d.exists()) setTopic({ id: d.id, ...d.data() });
+            setLoading(false);
+        }
+        load();
+    }, [slug])
+
+
+    if (loading) return <p>Loading...</p>
+    if (!topic) return <p>Not found</p>
+
+
+    const intro = marked.parse(topic.intro || "");
+    const left = marked.parse(topic.itAnalysis || "");
+    const right = marked.parse(topic.legalAnalysis || "");
+
+
+    return (
+        <article className="topic-page">
+            <h1 className="topic-title">{topic.title}</h1>
+            <div className="topic-intro" dangerouslySetInnerHTML={{ __html: intro }} />
+            <TwoColumn leftHtml={left} rightHtml={right} />
+        </article>
+    )
+}
