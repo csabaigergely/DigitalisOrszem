@@ -1,68 +1,115 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Cormorant+Garamond:wght@300;400;600&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --bg: #F5F1E8; /* warm beige */
+  --text: #2b2b2b; /* charcoal */
+  --muted: #6e5f4a;
+  --accent: #6e5f4a;
+  --max-width: 1100px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.app-root{min-height:100vh;display:flex;flex-direction:column}
+
+/* Navbar */
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem 1.25rem;
+  border-bottom:1px solid rgba(0,0,0,0.06);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.6), transparent);
+}
+.brand{
+  font-family: "Playfair Display", serif;
+  font-size:1.25rem;
+  color:var(--text);
+  text-decoration:none;
+  font-weight:700;
+}
+.nav-right .nav-link{
+  margin-left:1rem;
+  color:var(--text);
+  text-decoration:none;
+  font-size:0.95rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* Container */
+.container{
+  max-width:var(--max-width);
+  margin:2rem auto;
+  padding:0 1rem;
+  width:100%;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* Home */
+.page-title{font-family:"Playfair Display", serif; font-size:2rem; margin:0 0 1rem}
+.topic-list{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap:1rem;
 }
+.topic-card{
+  background: white;
+  padding:1rem;
+  border-radius:8px;
+  box-shadow: 0 6px 18px rgba(43,43,43,0.06);
+}
+.topic-card h3{margin:0 0 0.25rem; font-size:1.05rem}
+.topic-card .muted{color:var(--muted); font-size:0.95rem}
+.read-more{display:inline-block;margin-top:0.5rem;color:var(--accent);text-decoration:none;font-weight:600}
+
+/* Topic page */
+.topic-title{
+  font-family:"Playfair Display", serif;
+  text-align:center;
+  font-size:2.2rem;
+  margin:0 0 0.5rem;
+}
+.topic-intro{max-width:700px;margin:0.5rem auto 1.5rem;color:var(--muted);line-height:1.6}
+
+/* Two-column split */
+.two-col{
+  display:flex;
+  gap:2rem;
+  margin-top:1rem;
+}
+.col{
+  background:white;
+  padding:1.25rem;
+  border-radius:8px;
+  box-shadow: 0 6px 18px rgba(43,43,43,0.06);
+  width:50%;
+  overflow:auto;
+}
+.col.left { border-right:1px solid rgba(0,0,0,0.03); }
+.pre{white-space:pre-wrap}
+
+@media(max-width:880px){
+  .two-col{flex-direction:column}
+  .col{width:100%}
+}
+
+/* Admin */
+.admin .admin-login label,
+.admin .admin-form label{
+  display:block;
+  margin-bottom:0.75rem;
+}
+.admin input, .admin textarea{
+  width:100%; padding:0.5rem; border:1px solid rgba(0,0,0,0.08); border-radius:6px; background: #fff;
+  font-family:inherit;
+}
+.admin button{margin-top:0.5rem;padding:0.5rem 0.9rem;border-radius:6px;border:0;background:var(--text);color:white}
+.muted{color:var(--muted);font-size:0.9rem}
