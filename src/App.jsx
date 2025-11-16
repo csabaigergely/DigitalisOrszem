@@ -1,59 +1,83 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
+import { db } from "./firebase";
+import { collection, getDocs } from "firebase/firestore";
 
 export default function App() {
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+    const [topics, setTopics] = useState([]);
+
+    useEffect(() => {
+        async function fetchTopics() {
+            try {
+                const col = collection(db, "topics");
+                const snapshot = await getDocs(col);
+                const data = snapshot.docs.map(doc => doc.data());
+                setTopics(data);
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        fetchTopics();
+    }, []);
+
     return (
-        <div style={{ fontFamily: "serif", backgroundColor: "#f7f5ef", minHeight: "100vh", color: "#333" }}>
+        <div
+            style={{
+                backgroundColor: "#1a1a1a",
+                minHeight: "100vh",
+                color: "#e5e5e5",
+                paddingTop: "70px",
+                fontFamily: "Georgia, serif"
+            }}
+        >
+            <Navbar onMenuClick={() => setSidebarOpen(true)} />
+            <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-            {/* Top Navbar */}
-            <header style={{
-                padding: "1.5rem 3rem",
-                fontSize: "1.4rem",
-                fontWeight: "bold",
-                borderBottom: "1px solid #ddd",
-                backgroundColor: "#faf8f2",
-                position: "sticky",
-                top: 0
-            }}>
-                Dark Patterns Watchdog
-            </header>
+            {/* Page Content */}
+            <div
+                style={{
+                    width: "100%",
+                    maxWidth: "900px",
+                    margin: "40px auto",
+                    padding: "0 20px",
+                    animation: "fadeIn 1s ease-out"
+                }}
+            >
+                <h2 style={{ color: "#f4e8d1", marginBottom: "20px" }}>Available Topics</h2>
 
-            {/* Main Content */}
-            <main style={{ maxWidth: "900px", margin: "3rem auto", padding: "0 1rem" }}>
-                <h2 style={{ marginBottom: "1rem", fontSize: "2rem" }}>Topics</h2>
-
-                <p style={{ marginBottom: "2rem", color: "#555" }}>
-                    Choose a topic to learn about modern dark UX practices, legal aspects, and how to protect yourself.
-                </p>
-
-                {/* Topic List */}
-                <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-                    {[
-                        "What Are Dark Patterns?",
-                        "Misleading Cookie Banners",
-                        "Hidden Subscription Traps",
-                        "Manipulative Checkout Flows",
-                        "Legal Rights Against Dark UX",
-                        "How Companies Track You"
-                    ].map((topic) => (
-                        <li
-                            key={topic}
+                {/* Topic cards */}
+                <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
+                    {topics.map((t, i) => (
+                        <div
+                            key={i}
                             style={{
-                                padding: "1.2rem 1rem",
-                                marginBottom: "1rem",
-                                backgroundColor: "#ffffff",
-                                borderRadius: "8px",
-                                border: "1px solid #e0dcd2",
+                                background: "#242424",
+                                borderRadius: "10px",
+                                padding: "20px",
                                 cursor: "pointer",
-                                transition: "0.2s"
+                                transition: "transform 0.2s ease, background 0.2s ease"
                             }}
-                            onMouseEnter={e => e.currentTarget.style.backgroundColor = "#f0ede6"}
-                            onMouseLeave={e => e.currentTarget.style.backgroundColor = "#ffffff"}
+                            onMouseEnter={e => (e.currentTarget.style.transform = "scale(1.02)")}
+                            onMouseLeave={e => (e.currentTarget.style.transform = "scale(1)")}
                         >
-                            {topic}
-                        </li>
+                            <h3 style={{ color: "#f4e8d1" }}>{t.title}</h3>
+                            <p style={{ opacity: 0.7 }}>{t.description}</p>
+                        </div>
                     ))}
-                </ul>
-            </main>
+                </div>
+            </div>
+
+            <style>
+                {`
+                @keyframes fadeIn {
+                    from { opacity: 0; transform: translateY(10px); }
+                    to   { opacity: 1; transform: translateY(0); }
+                }
+                `}
+            </style>
         </div>
     );
 }
