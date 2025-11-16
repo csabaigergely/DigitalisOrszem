@@ -1,21 +1,18 @@
-// App.jsx
 import React, { useEffect, useState } from "react";
-import { db } from "./firebase";                 // import your db instance
-import { collection, getDocs } from "firebase/firestore";  // modular Firestore functions
-import { getAuth } from "firebase/auth";        // optional if using auth
+import { db } from "./firebase";
+import { collection, getDocs } from "firebase/firestore";
 
 export default function App() {
-    const [message, setMessage] = useState("Loading...");
+    const [data, setData] = useState("Loading...");
 
     useEffect(() => {
         async function fetchData() {
             try {
-                const col = collection(db, "test"); // Firestore collection
+                const col = collection(db, "test");
                 const snapshot = await getDocs(col);
-                const data = snapshot.docs.map(doc => doc.data());
-                setMessage(JSON.stringify(data, null, 2));
+                setData(JSON.stringify(snapshot.docs.map(doc => doc.data()), null, 2));
             } catch (err) {
-                setMessage("Error connecting to Firebase: " + err.message);
+                setData("Error connecting to Firebase: " + err.message);
             }
         }
         fetchData();
@@ -24,7 +21,7 @@ export default function App() {
     return (
         <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
             <h1>Dark Patterns Watchdog</h1>
-            <pre>{message}</pre>
+            <pre>{data}</pre>
         </div>
     );
 }
