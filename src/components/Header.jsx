@@ -16,11 +16,8 @@ export default function Header({ search, setSearch }) {
                 />
             </header>
 
-            {/* Fix elválasztó vonal */}
+            {/* Fixebb, erősebb divider */}
             <div className="header-divider"></div>
-
-            {/* A header alatt legyen hely, hogy ne lógjon rá a tartalomra */}
-            <div style={{ height: "110px" }}></div>
         </>
     );
 }
