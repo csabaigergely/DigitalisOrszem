@@ -1,9 +1,4 @@
-﻿import React, { useEffect, useState } from "react";
-import TopicCard from "../components/TopicCard";
-import { collection, getDocs, query, orderBy } from "firebase/firestore";
-import { db } from "../firebase";
-
-export default function Home() {
+﻿export default function Home({ search }) {
     const [topics, setTopics] = useState([]);
     const [visible, setVisible] = useState(10);
     const [loading, setLoading] = useState(true);
@@ -19,12 +14,14 @@ export default function Home() {
         load();
     }, []);
 
-    const shown = topics.slice(0, visible);
+    const filtered = topics.filter(t =>
+        t.title.toLowerCase().includes(search.toLowerCase())
+    );
+
+    const shown = filtered.slice(0, visible);
 
     return (
         <div className="home">
-
-            {/* Fejléc cím */}
             <div className="top-row">
                 <h2 className="section-title">Elérhető Témák</h2>
             </div>
@@ -39,22 +36,21 @@ export default function Home() {
                 </div>
             )}
 
-            {topics.length > visible && (
+            {filtered.length > visible && (
                 <div className="load-more-wrap">
-                    <button className="load-more" onClick={() => setVisible(v => v + 10)}>
+                    <button
+                        className="load-more"
+                        onClick={() => setVisible(v => v + 10)}
+                    >
                         Több betöltése
                     </button>
                 </div>
             )}
 
-            {/* Rólunk */}
             <section className="about">
                 <h3>Rólunk</h3>
                 <p>
-                    A Digitális Őrszem manipulációs digitális mintákat és UX-technikákat elemez
-                    technikai és jogi nézőpontból. Minden elemzés két részre oszlik: technológiai magyarázat
-                    és jogi következmények — ezzel segítve a kutatókat, szakembereket és állampolgárokat
-                    megérteni a kockázatokat és a lehetséges megoldásokat.
+                    A Digitális Őrszem manipulációs digitális mintákat és UX-technikákat elemez…
                 </p>
             </section>
         </div>

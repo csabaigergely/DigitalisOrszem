@@ -1,34 +1,31 @@
-import React, { useEffect, useState } from "react";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import React, { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import TopicPage from "./pages/TopicPage";
 import Admin from "./pages/Admin";
-import { db } from "./firebase";
-import { collection, getDocs } from "firebase/firestore";
-
+import Header from "./components/Header";
 
 export default function App() {
-    const [titleLarge, setTitleLarge] = useState(true);
+    const [search, setSearch] = useState("");
+
     return (
         <div className="app-root">
-            <header className="site-header">
-                <h1 className="site-title">Digitális Őrszem</h1>
-                <div className="search-area" />
-            </header>
+            {/* Globális fejléc keresővel */}
+            <Header search={search} setSearch={setSearch} />
 
-
+            {/* Tartalom */}
             <main className="container">
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/" element={<Home search={search} />} />
                     <Route path="/topic/:slug" element={<TopicPage />} />
                     <Route path="/admin" element={<Admin />} />
                 </Routes>
             </main>
 
-
+            {/* Lábléc */}
             <footer className="site-footer">
-                <p>� {new Date().getFullYear()} Digitális Őrszem</p>
+                <p>© {new Date().getFullYear()} Digitális Őrszem</p>
             </footer>
         </div>
-    )
+    );
 }
