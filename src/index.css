@@ -116,7 +116,7 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 
     color: var(--muted);
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 /* SEARCH BAR – régi stílus visszaállítva */
