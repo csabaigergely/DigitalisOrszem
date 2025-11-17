@@ -4,7 +4,7 @@
 :root{
 --bg: #0f0f10;
 --panel: #151515;
---muted: #bfae92;
+--muted: rgb(191, 174, 146);
 --text: #efe8dc;
 --accent: #c9b89a;
 --max-width: 1100px;
@@ -38,7 +38,7 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
   background: var(--panel);
   padding: 18px;
   border-radius: 10px;
-  border: 2px solid gold; /* golden frame */
+  border: 2px solid rgb(191, 174, 146);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
   width: 100%;
   margin-bottom: 16px;
