@@ -36,7 +36,7 @@ export default function Home() {
 
             <SearchBar value={search} onChange={setSearch} />
 
-
+            <div className="header-divider"></div>
 
             {loading ? <p>Keresés...</p> : (
                 <div className="topic-grid">

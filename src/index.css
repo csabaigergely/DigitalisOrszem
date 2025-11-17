@@ -42,10 +42,27 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 .load-more-wrap{display:flex;justify-content:center;margin:28px 0}
 .load-more{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text);padding:10px 16px;border-radius:8px;cursor:pointer}
 
+.about {
+    margin-top: 40px;
+    background: transparent;
+    color: var(--muted);
+    max-width: 780px;
 
-.about{margin-top:36px;background:transparent;color:var(--muted);max-width:780px}
-.about h3{color:var(--accent)}
+    /* új dolgok */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.2rem; /* nagyobb szöveg */
+    line-height: 1.6;
+}
 
+.about h3 {
+    color: var(--accent);
+    font-size: 1.9rem; /* nagyobb cím */
+    margin-bottom: 14px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
 
 .topic-page{max-width:var(--max-width);margin:120px auto;padding:0 20px}
 .topic-title{text-align:center;font-family:'Playfair Display',serif;font-size:2.2rem;margin:0;color:var(--text)}
@@ -89,4 +106,16 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 .search-input::placeholder {
     color: var(--muted);
     font-size: 1.05rem;
+}
+
+/* Elegáns felső elválasztó vonal */
+.header-divider {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 18px auto 28px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    /* finom luxus hatás */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
 }
