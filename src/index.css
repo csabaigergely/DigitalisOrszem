@@ -110,12 +110,10 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 
 /* Elegáns felső elválasztó vonal */
 .header-divider {
-    width: 100%;
-    max-width: var(--max-width);
-    margin: 18px auto 28px;
-
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-
-    /* finom luxus hatás */
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    width: 100vw;                        /* teljes képernyőt kitölti */
+    margin-left: calc(50% - 50vw);       /* teljes szélesség trükk */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    margin-top: 22px;
+    margin-bottom: 32px;
 }
+
