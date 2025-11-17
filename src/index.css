@@ -89,7 +89,7 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 10000;
 
     /* háttér pontosan az oldal színe + enyhe sötétítés */
     background: #0f0f10;
@@ -144,6 +144,11 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     position: fixed;
     top: 92px;
     left: 0;
-    z-index: 900;
+    z-index: 9999;
 }
 
+.site-header,
+.header-divider {
+    position: fixed;
+    pointer-events: auto; /* csak a header fogható */
+}
