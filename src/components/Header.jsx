@@ -49,16 +49,7 @@ export default function Header() {
                         placeholder="Keresés a címekben..."
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
-                        style={{
-                            padding: "10px 14px",
-                            width: "260px",
-                            borderRadius: "8px",
-                            border: "1px solid rgba(255,255,255,0.25)",
-                            background: "rgba(40,40,40,0.8)",
-                            color: "#fff",
-                            fontSize: "1rem",
-                            outline: "none"
-                        }}
+                        className="header-search-input"
                     />
                 </div>
             </header>
