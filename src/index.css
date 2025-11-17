@@ -23,7 +23,7 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 
 
 .top-row{display:flex;justify-content:space-between;align-items:center;gap:20px}
-.section-title{font-family:'Playfair Display', serif;font-size:1.7rem;color:var(--accent);margin:0}
+.section-title{font-family:'Playfair Display', serif;font-size:1.7rem;color:var(--accent);margin:0; padding-bottom: 40px;letter-spacing: 1px;}
 
 
 .search-wrap{margin-left:auto}
