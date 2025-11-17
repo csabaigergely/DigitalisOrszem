@@ -22,8 +22,8 @@ export default function TopicPage() {
     }, [slug])
 
 
-    if (loading) return <p>Loading...</p>
-    if (!topic) return <p>Not found</p>
+    if (loading) return <p>Keresés...</p>
+    if (!topic) return <p>Nem található</p>
 
 
     const intro = marked.parse(topic.intro || "");

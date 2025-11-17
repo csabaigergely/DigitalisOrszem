@@ -36,7 +36,7 @@ export default function Home() {
             </div>
 
 
-            {loading ? <p>Loading...</p> : (
+            {loading ? <p>Keresés...</p> : (
                 <div className="topic-grid">
                     {shown.map(t => <TopicCard key={t.slug || t.id} topic={t} />)}
                 </div>
@@ -45,7 +45,7 @@ export default function Home() {
 
             {filtered.length > visible && (
                 <div className="load-more-wrap">
-                    <button className="load-more" onClick={() => setVisible(v => v + 10)}>Load more</button>
+                    <button className="load-more" onClick={() => setVisible(v => v + 10)}>Több betöltése</button>
                 </div>
             )}
 
@@ -57,7 +57,6 @@ export default function Home() {
                     technológiai magyarázat és jogi következmények — ezzel segítve a kutatókat,
                     szakembereket és állampolgárokat megérteni a kockázatokat és a lehetséges megoldásokat.
                 </p>
-                <p>© 2025 Digitális Őrszem</p>
             </section>
         </div>
     )

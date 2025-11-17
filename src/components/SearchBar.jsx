@@ -4,7 +4,7 @@ export default function SearchBar({ value, onChange }) {
         <div className="search-wrap">
             <input
                 aria-label="Search topics"
-                placeholder="Search titles..."
+                placeholder="Címre keresés..."
                 className="search-input"
                 value={value}
                 onChange={e => onChange(e.target.value)}

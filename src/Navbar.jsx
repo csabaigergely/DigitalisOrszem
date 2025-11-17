@@ -36,7 +36,7 @@ export default function Navbar({ onMenuClick }) {
 
             {/* Center website title */}
             <h1 style={{ color: "#f4e8d1", fontSize: "24px", letterSpacing: "2px", textTransform: "uppercase" }}>
-                Dark Patterns Watchdog
+                Digitális Őrszem
             </h1>
         </nav>
     );

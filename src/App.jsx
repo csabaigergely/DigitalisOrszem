@@ -12,7 +12,7 @@ export default function App() {
     return (
         <div className="app-root">
             <header className="site-header">
-                <h1 className="site-title">Dark Patterns Watchdog</h1>
+                <h1 className="site-title">Digitális Őrszem</h1>
                 <div className="search-area" />
             </header>
 
@@ -27,7 +27,7 @@ export default function App() {
 
 
             <footer className="site-footer">
-                <p>� {new Date().getFullYear()} Dark Patterns Watchdog</p>
+                <p>� {new Date().getFullYear()} Digitális Őrszem</p>
             </footer>
         </div>
     )
