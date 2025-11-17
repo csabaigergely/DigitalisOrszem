@@ -32,8 +32,10 @@ export default function Home() {
         <div className="home">
             <div className="top-row">
                 <h2 className="section-title">Elérhető Témák</h2>
-                <SearchBar value={search} onChange={setSearch} />
             </div>
+
+            <SearchBar value={search} onChange={setSearch} />
+
 
 
             {loading ? <p>Keresés...</p> : (
