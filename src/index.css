@@ -30,8 +30,21 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 .search-input{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:8px;color:var(--text);min-width:220px}
 
 
-.topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:18px}
-.topic-card{background:var(--panel);padding:18px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.02);transition:transform .18s ease, box-shadow .18s ease; width: 90%; max-width: 1000px;}
+.topic-grid {
+  display: block; /* removes grid layout */
+  margin-top: 18px;
+}
+.topic-card {
+  background: var(--panel);
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.02);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+
+  width: 100%; /* full width of container */
+  margin-bottom: 16px; /* spacing between cards */
+}
 .topic-card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(194, 188, 188, 0.7)}
 .topic-card h3{margin:0 0 8px}
 .topic-card .muted{color:var(--muted);font-size:0.95rem}
