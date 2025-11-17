@@ -103,4 +103,60 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     background: rgba(255,255,255,0.22);
 }
 
+/* ========= HEADER ========= */
+
+.site-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    background: rgba(20,20,20,0.92);
+    backdrop-filter: blur(8px);
+
+    padding: 22px 0 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* KÖZÉPRE IGAZÍTOTT FŐCÍM */
+.site-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    /* VISSZA A RÉGI SZÍNHEZ */
+    color: #fff;
+
+    /* EZ SZÜNTETI MEG AZ ALÁHÚZÁST */
+    text-decoration: none;
+
+    margin-bottom: 14px;
+}
+
+/* SEARCH BAR – régi stílus visszaállítva */
+.header-search-input {
+    padding: 10px 14px;
+    width: 260px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.35);
+    background: rgba(40,40,40,0.85);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* SZÉP ELVÁLASZTÓ VONAL A HEADER ALATT – FIX, GÖRGETÉSKOR IS MARAD */
+.header-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,0.22);
+
+    position: fixed;
+    top: 82px;          /* pontosan a header alá igazítva */
+    left: 0;
+    z-index: 999;
+}
 

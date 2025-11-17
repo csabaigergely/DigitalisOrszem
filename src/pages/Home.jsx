@@ -55,7 +55,10 @@ export default function Home({ search }) {
             <section className="about">
                 <h3>Rólunk</h3>
                 <p>
-                    A Digitális Őrszem manipulációs digitális mintákat és UX-technikákat elemez…
+                    A Digitális Őrszem manipulációs digitális mintákat és UX-technikákat elemez
+                technikai és jogi nézőpontból. Minden elemzés két részre oszlik:
+                technológiai magyarázat és jogi következmények — ezzel segítve a kutatókat,
+                szakembereket és állampolgárokat megérteni a kockázatokat és a lehetséges megoldásokat.
                 </p>
             </section>
         </div>

@@ -5,25 +5,22 @@ export default function Header({ search, setSearch }) {
     return (
         <>
             <header className="site-header">
+                <h1 className="site-title">Digitális Őrszem</h1>
 
-                {/* CÍM KÖZÉPEN */}
-                <Link to="/" className="site-title">
-                    Digitális Őrszem
-                </Link>
-
-                {/* KERESŐ JOBB FENT */}
-                <div className="search-wrap header-search">
-                    <input
-                        type="text"
-                        placeholder="Keresés a címekben..."
-                        className="header-search-input"
-                        value={search}
-                        onChange={e => setSearch(e.target.value)}
-                    />
-                </div>
+                <input
+                    type="text"
+                    className="header-search-input"
+                    placeholder="Keresés..."
+                    value={search}
+                    onChange={e => setSearch(e.target.value)}
+                />
             </header>
 
+            {/* Fix elválasztó vonal */}
             <div className="header-divider"></div>
+
+            {/* A header alatt legyen hely, hogy ne lógjon rá a tartalomra */}
+            <div style={{ height: "110px" }}></div>
         </>
     );
 }
