@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import TopicCard from "../components/TopicCard";
 import SearchBar from "../components/SearchBar";
 import { collection, getDocs, query, orderBy } from "firebase/firestore";
@@ -31,7 +31,7 @@ export default function Home() {
     return (
         <div className="home">
             <div className="top-row">
-                <h2 className="section-title">Available Topics</h2>
+                <h2 className="section-title">Elérhető Témák</h2>
                 <SearchBar value={search} onChange={setSearch} />
             </div>
 
@@ -51,8 +51,13 @@ export default function Home() {
 
 
             <section className="about">
-                <h3>About</h3>
-                <p>Dark Patterns Watchdog analyses manipulative UX practices from both a technical and legal perspective. Each article is split into two columns � IT analysis and legal implications � to help researchers, practitioners and citizens understand the risks and remedies.</p>
+                <h3>Rólunk</h3>
+                <p>A Digitális Őrszem manipulációs digitális mintákat és UX-technikákat elemez
+                    technikai és jogi nézőpontból. Minden elemzés két részre oszlik:
+                    technológiai magyarázat és jogi következmények — ezzel segítve a kutatókat,
+                    szakembereket és állampolgárokat megérteni a kockázatokat és a lehetséges megoldásokat.
+                </p>
+                <p>© 2025 Digitális Őrszem</p>
             </section>
         </div>
     )
