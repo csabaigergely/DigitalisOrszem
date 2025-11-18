@@ -5,6 +5,7 @@ import { db } from "../firebase";
 import { marked } from "marked";
 import TwoColumn from "../components/TwoColumnSection";
 import Comments from "../components/Comments";
+import SaveButton from "../components/SaveButton";   // <-- EZ HÍÁNYZOTT
 
 export default function TopicPage({ user }) {
     const { slug } = useParams();
@@ -33,7 +34,6 @@ export default function TopicPage({ user }) {
             <div className="topic-intro" dangerouslySetInnerHTML={{ __html: intro }} />
             <TwoColumn leftHtml={left} rightHtml={right} />
 
-            {/* Itt már működni fog */}
             <SaveButton user={user} topic={topic} />
             <Comments slug={slug} user={user} />
         </article>
