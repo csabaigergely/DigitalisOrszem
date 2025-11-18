@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import SaveButton from "../components/SaveButton";
 
-export default function TopicCard({ topic }) {
+export default function TopicCard({ topic, user }) {
     const createdDate = topic.createdAt
         ? new Date(topic.createdAt.seconds * 1000).toLocaleDateString("hu-HU")
         : null;
