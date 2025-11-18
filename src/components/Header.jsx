@@ -7,13 +7,15 @@ export default function Header({ search, setSearch }) {
             <header className="site-header">
                 <h1 className="site-title">Digitális Őrszem</h1>
 
-                <input
-                    type="text"
-                    className="header-search-input"
-                    placeholder="Keresés..."
-                    value={search}
-                    onChange={e => setSearch(e.target.value)}
-                />
+                <form onSubmit={(e) => e.preventDefault()} className="header-search-form">
+                    <input
+                        type="text"
+                        className="header-search-input"
+                        placeholder="Keresés..."
+                        value={search}
+                        onChange={(e) => setSearch(e.target.value)}
+                    />
+                </form>
             </header>
 
             {/* Fixebb, erősebb divider */}
