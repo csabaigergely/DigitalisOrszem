@@ -4,6 +4,7 @@ import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import { marked } from "marked";
 import TwoColumn from "../components/TwoColumnSection";
+import Comments from "../components/Comments";
 
 
 export default function TopicPage() {
@@ -36,6 +37,8 @@ export default function TopicPage() {
             <h1 className="topic-title">{topic.title}</h1>
             <div className="topic-intro" dangerouslySetInnerHTML={{ __html: intro }} />
             <TwoColumn leftHtml={left} rightHtml={right} />
+            <SaveButton user={user} topic={topic} />
+            <Comments slug={slug} user={user} />
         </article>
     )
 }
