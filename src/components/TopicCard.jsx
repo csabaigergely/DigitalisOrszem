@@ -11,10 +11,14 @@ export default function TopicCard({ topic, user }) {
         <Link to={`/topic/${topic.slug}`} className="topic-card-link">
             <article className="topic-card">
                 <h3>{topic.title}</h3>
-                <div className="topic-bottom-row">
-                    <p className="muted">{topic.intro}</p>
-                    {createdDate && <span className="topic-date">{createdDate}</span>}
+                <div className="topic-top-row">
+                    <h3>{topic.title}</h3>
+                    <div className="topic-meta">
+                        {createdDate && <span className="topic-date">{createdDate}</span>}
+                        <SaveButton user={user} topic={topic} />
+                    </div>
                 </div>
+                <p className="muted">{topic.intro}</p>
                 <SaveButton user={user} topic={topic} />
             </article>
         </Link>

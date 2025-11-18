@@ -33,6 +33,7 @@ export default function App() {
           <Route path="/" element={<Home search={search} user={user} />} />
           <Route path="/topic/:slug" element={<TopicPage user={user} />} />
           <Route path="/admin" element={<Admin user={user} />} />
+          <Route path="/profile" element={<ProfilePage user={user} />} />
         </Routes>
       </main>
 
