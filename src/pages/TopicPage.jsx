@@ -6,12 +6,10 @@ import { marked } from "marked";
 import TwoColumn from "../components/TwoColumnSection";
 import Comments from "../components/Comments";
 
-
-export default function TopicPage() {
+export default function TopicPage({ user }) {
     const { slug } = useParams();
     const [topic, setTopic] = useState(null);
     const [loading, setLoading] = useState(true);
-
 
     useEffect(() => {
         async function load() {
@@ -20,25 +18,24 @@ export default function TopicPage() {
             setLoading(false);
         }
         load();
-    }, [slug])
+    }, [slug]);
 
-
-    if (loading) return <p>Keresés...</p>
-    if (!topic) return <p>Nem található</p>
-
+    if (loading) return <p>Keresés...</p>;
+    if (!topic) return <p>Nem található</p>;
 
     const intro = marked.parse(topic.intro || "");
     const left = marked.parse(topic.itAnalysis || "");
     const right = marked.parse(topic.legalAnalysis || "");
-
 
     return (
         <article className="topic-page">
             <h1 className="topic-title">{topic.title}</h1>
             <div className="topic-intro" dangerouslySetInnerHTML={{ __html: intro }} />
             <TwoColumn leftHtml={left} rightHtml={right} />
+
+            {/* Itt már működni fog */}
             <SaveButton user={user} topic={topic} />
             <Comments slug={slug} user={user} />
         </article>
-    )
+    );
 }
