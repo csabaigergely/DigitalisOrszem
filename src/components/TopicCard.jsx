@@ -8,27 +8,33 @@ export default function TopicCard({ topic, user }) {
         : null;
 
     return (
-        <Link to={`/topic/${topic.slug}`} className="topic-card-link">
-            <article className="topic-card">
+        <article className="topic-card">
 
-                {/* Felső sor: cím + jobb oldalt a mentés gomb */}
-                <div className="topic-card-top">
+            {/* Felső sor: cím + mentés gomb külön él, nem kattinthatja meg a kártyát */}
+            <div className="topic-card-top">
+
+                {/* Cím kattintható */}
+                <Link to={`/topic/${topic.slug}`} className="topic-title-link">
                     <h3>{topic.title}</h3>
+                </Link>
 
-                    <div className="save-container">
-                        <SaveButton user={user} topic={topic} />
-                    </div>
+                {/* SaveButton NEM Linkben van → nem navigál */}
+                <div className="save-container">
+                    <SaveButton user={user} topic={topic} />
                 </div>
+            </div>
 
+            {/* Intro kattintható */}
+            <Link to={`/topic/${topic.slug}`} className="topic-card-link">
                 <p className="muted">{topic.intro}</p>
+            </Link>
 
-                {/* Dátum a jobb alsó sarokban */}
-                {createdDate && (
-                    <div className="topic-card-date-bottom">
-                        {createdDate}
-                    </div>
-                )}
-            </article>
-        </Link>
+            {/* Dátum jobb alsó sarokban */}
+            {createdDate && (
+                <div className="topic-card-date-bottom">
+                    {createdDate}
+                </div>
+            )}
+        </article>
     );
 }
