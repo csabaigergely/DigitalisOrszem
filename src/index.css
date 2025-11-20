@@ -293,7 +293,7 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 }
 
 .header-button {
-    padding: 10px 18px;
+    padding: 9px 15px;
     font-size: 1.05rem;
     border-radius: 10px;
     background: transparent;
