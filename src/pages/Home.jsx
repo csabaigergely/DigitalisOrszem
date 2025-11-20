@@ -3,7 +3,7 @@ import { collection, query, orderBy, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import TopicCard from "../components/TopicCard";
 
-export default function Home({ search }) {
+export default function Home({ search, user }) {
     const [topics, setTopics] = useState([]);
     const [visible, setVisible] = useState(10);
     const [loading, setLoading] = useState(true);
