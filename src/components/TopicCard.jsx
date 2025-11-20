@@ -10,7 +10,6 @@ export default function TopicCard({ topic, user }) {
     return (
         <Link to={`/topic/${topic.slug}`} className="topic-card-link">
             <article className="topic-card">
-                <h3>{topic.title}</h3>
                 <div className="topic-top-row">
                     <h3>{topic.title}</h3>
                     <div className="topic-meta">
@@ -19,7 +18,6 @@ export default function TopicCard({ topic, user }) {
                     </div>
                 </div>
                 <p className="muted">{topic.intro}</p>
-                <SaveButton user={user} topic={topic} />
             </article>
         </Link>
     );
