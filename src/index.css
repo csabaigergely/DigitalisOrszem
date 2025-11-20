@@ -94,8 +94,8 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 }
 
 .topic-page{max-width:var(--max-width);margin:120px auto;padding:0 20px}
-.topic-title{text-align:center;font-family:'Playfair Display',serif;font-size:2.2rem;margin:0;color:var(--text)}
-.topic-intro{max-width:800px;margin:12px auto 24px;color:var(--muted);text-align:center}
+.topic-title{text-align:center;font-family:'Playfair Display',serif;font-size:2.2rem;margin:0;color:var(--text);padding-bottom: 30px}
+.topic-intro{max-width:800px;margin:12px auto 24px;color:var(--muted);text-align:center;padding-bottom: 30px}
 
 
 .two-col{display:flex;gap:24px}
@@ -294,7 +294,7 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 
 .header-button {
     height: 38px;
-    min-width: 120px;
+    min-width: 150px;
     padding: 0 16px;
 
     font-size: 1.05rem;
