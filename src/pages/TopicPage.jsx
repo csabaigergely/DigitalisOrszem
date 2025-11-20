@@ -34,7 +34,10 @@ export default function TopicPage({ user }) {
             <div className="topic-intro" dangerouslySetInnerHTML={{ __html: intro }} />
             <TwoColumn leftHtml={left} rightHtml={right} />
 
-            <SaveButton user={user} topic={topic} />
+            <div style={{ marginTop: 40, marginBottom: 40 }}>
+                <SaveButton user={user} topic={topic} />
+            </div>
+
             <Comments slug={slug} user={user} />
         </article>
     );
