@@ -26,7 +26,7 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 .section-title{font-family:'Playfair Display', serif;font-size:1.7rem;color:var(--accent);margin:0; padding-bottom: 40px;letter-spacing: 1px;}
 
 
-.search-wrap{margin-left:auto}
+.search-wrap{margin-left:auto; height: 38px; min-width: 120px}
 .search-input{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:8px;color:var(--text);min-width:220px}
 
 
