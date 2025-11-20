@@ -32,7 +32,7 @@ export default function LoginModal({ visible, onClose }) {
       background: "rgba(0,0,0,0.5)", zIndex: 20000
     }}>
       <form onSubmit={handleSubmit} style={{
-        background: "var(--panel)", padding: 20, borderRadius: 12, width: 360, color: "var(--text)"
+        background: "var(--panel)", padding: 20, borderRadius: 0, width: 360, color: "var(--text)"
       }}>
         <h3 style={{ marginTop: 0 }}>{mode === "login" ? "Bejelentkezés" : "Regisztráció"}</h3>
 

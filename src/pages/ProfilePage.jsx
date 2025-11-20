@@ -41,7 +41,7 @@ export default function ProfilePage({ user }) {
                             to={`/topic/${item.slug}`}
                             style={{
                                 padding: 14,
-                                borderRadius: 10,
+                                borderRadius: 0,
                                 background: "var(--panel)",
                                 textDecoration: "none",
                                 color: "var(--text)",

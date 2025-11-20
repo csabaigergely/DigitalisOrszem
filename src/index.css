@@ -308,3 +308,8 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     border-color: var(--accent);
     color: var(--accent);
 }
+
+/* ===== GLOBAL BORDER-RADIUS RESET ===== */
+* {
+    border-radius: 0 !important;
+}

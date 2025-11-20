@@ -54,7 +54,7 @@ export default function Comments({ slug, user }) {
 
       <div>
         {comments.map(c => (
-          <div key={c.id} style={{ padding: 10, background: "var(--panel)", marginBottom: 8, borderRadius: 8 }}>
+          <div key={c.id} style={{ padding: 10, background: "var(--panel)", marginBottom: 8, borderRadius: 0}}>
             <div style={{ fontSize: ".95rem", color: "var(--muted)" }}>
               {c.authorName} • {c.createdAt?.seconds ? new Date(c.createdAt.seconds * 1000).toLocaleString("hu-HU") : ""}
             </div>

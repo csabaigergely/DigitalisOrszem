@@ -40,7 +40,7 @@ export default function Header({ search, setSearch, user }) {
                 to="/profile"
                 title="Profil"
                 style={{
-                  width: 38, height: 38, borderRadius: 20,
+                  width: 38, height: 38, borderRadius: 0,
                   display: "flex", alignItems: "center", justifyContent: "center",
                   background: "transparent",
                   border: "1px solid rgba(255,255,255,0.06)",

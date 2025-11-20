@@ -46,7 +46,7 @@ export default function SaveButton({ user, topic }) {
       onMouseLeave={() => setHover(false)}
       style={{
         padding: "6px 12px",
-        borderRadius: 10,
+        borderRadius: 0,
         border: hover ? hoverBorder : baseBorder,
         background: saved
           ? savedBackground
