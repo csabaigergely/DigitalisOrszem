@@ -30,17 +30,7 @@ export default function Header({ search, setSearch, user }) {
         {/* JOBB: login / profil + logout */}
         <div className="header-right">
           {!user ? (
-            <button
-              onClick={() => setShowLogin(true)}
-              style={{
-                padding: "8px 12px",
-                borderRadius: 8,
-                background: "transparent",
-                border: "1px solid rgba(255,255,255,0.12)",
-                color: "var(--text)",
-                cursor: "pointer",
-              }}
-            >
+            <button onClick={() => setShowLogin(true)} className="header-button">
               Bejelentkezés
             </button>
           ) : (
@@ -66,17 +56,7 @@ export default function Header({ search, setSearch, user }) {
               </Link>
 
               {/* KILÉPÉS */}
-              <button
-                onClick={async () => { await logout(); }}
-                style={{
-                  padding: "6px 10px",
-                  borderRadius: 8,
-                  background: "transparent",
-                  border: "1px solid rgba(255,255,255,0.06)",
-                  color: "var(--muted)",
-                  cursor: "pointer",
-                }}
-              >
+              <button onClick={logout} className="header-button">
                 Kilépés
               </button>
             </>
