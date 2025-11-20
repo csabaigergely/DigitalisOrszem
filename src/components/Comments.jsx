@@ -32,10 +32,23 @@ export default function Comments({ slug, user }) {
     <div style={{ marginTop: 32 }}>
       <h3>Kommentek</h3>
 
-      <form onSubmit={postComment} style={{ marginTop: 12 }}>
-        <textarea value={text} onChange={e => setText(e.target.value)} rows={3} style={{ width: "100%", padding: 10 }} placeholder={user ? "Írj üzenetet..." : "Jelentkezz be a kommenteléshez"} />
-        <div style={{ display: "flex", gap: 8, marginTop: 8 }}>
-          <button type="submit" disabled={!user || !text.trim()}>Küldés</button>
+      <form onSubmit={postComment} className="comment-form">
+        <textarea
+          value={text}
+          onChange={e => setText(e.target.value)}
+          rows={3}
+          className="comment-textarea"
+          placeholder={user ? "Írj üzenetet..." : "Jelentkezz be a kommenteléshez"}
+        />
+
+        <div className="comment-button-wrap">
+          <button
+            type="submit"
+            disabled={!user || !text.trim()}
+            className="comment-submit-button"
+          >
+            Küldés
+          </button>
         </div>
       </form>
 
@@ -49,7 +62,7 @@ export default function Comments({ slug, user }) {
           </div>
         ))}
       </div>
-      
+
     </div>
   );
 }

@@ -240,3 +240,54 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.5px;
 }
+
+/* ===== COMMENTS STYLING ===== */
+
+.comment-form {
+    margin-top: 30px;
+}
+
+.comment-textarea {
+    width: 100%;
+    padding: 14px;
+    background: #131313;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 1.15rem;
+    resize: vertical;
+}
+
+/* Több hely a küldés gomb előtt és után */
+.comment-button-wrap {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Old money elegáns gomb */
+.comment-submit-button {
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+    border: 1px solid rgba(191, 174, 146, 0.35);
+    color: var(--text);
+    padding: 10px 26px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-family: 'Playfair Display', serif;
+}
+
+.comment-submit-button:hover:not(:disabled) {
+    background: #2f2a22;
+    border-color: var(--accent);
+    box-shadow: 0 0 18px rgba(201, 184, 154, 0.2);
+}
+
+.comment-submit-button:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
