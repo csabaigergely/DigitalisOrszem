@@ -1,4 +1,5 @@
 // src/App.jsx
+import ProfilePage from "./pages/ProfilePage";
 import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
