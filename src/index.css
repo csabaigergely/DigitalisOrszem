@@ -293,17 +293,25 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 }
 
 .header-button {
-    padding: 9px 15px;
+    height: 38px;
+    min-width: 120px;
+    padding: 0 16px;
+
     font-size: 1.05rem;
-    border-radius: 10px;
+    border-radius: 0;
     background: transparent;
+
     border: 1px solid rgba(255,255,255,0.18);
     color: var(--text);
+
     cursor: pointer;
     transition: all 0.25s ease;
     font-family: 'Playfair Display', serif;
-}
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .header-button:hover {
     border-color: var(--accent);
     color: var(--accent);

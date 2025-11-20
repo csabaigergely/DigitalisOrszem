@@ -40,13 +40,18 @@ export default function Header({ search, setSearch, user }) {
                 to="/profile"
                 title="Profil"
                 style={{
-                  width: 38, height: 38, borderRadius: 0,
-                  display: "flex", alignItems: "center", justifyContent: "center",
+                  width: 38,
+                  height: 38,
+                  borderRadius: 0,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
                   background: "transparent",
-                  border: "1px solid rgba(255,255,255,0.06)",
-                  color: "var(--muted)"
+                  border: "1px solid rgba(255,255,255,0.18)",
+                  color: "var(--muted)",
                 }}
               >
+
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
                      xmlns="http://www.w3.org/2000/svg" >
                   <circle cx="12" cy="8" r="3" stroke="currentColor" strokeWidth="1.6" />
