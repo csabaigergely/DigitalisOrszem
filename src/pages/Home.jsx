@@ -36,7 +36,11 @@ export default function Home({ search }) {
             ) : (
                 <div className="topic-grid">
                     {shown.map(t => (
-                        <TopicCard key={t.slug || t.id} topic={t} user={user} />
+                        <TopicCard 
+                            key={t.slug || t.id} 
+                            topic={t}
+                            user={user}   // <-- EZ KELLETT!
+                        />
                     ))}
                 </div>
             )}
