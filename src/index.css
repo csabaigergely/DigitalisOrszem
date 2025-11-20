@@ -94,8 +94,8 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 }
 
 .topic-page{max-width:var(--max-width);margin:120px auto;padding:0 20px}
-.topic-title{text-align:center;font-family:'Playfair Display',serif;font-size:2.2rem;margin:0;color:var(--text);padding-bottom: 30px}
-.topic-intro{max-width:800px;margin:12px auto 24px;color:var(--muted);text-align:center;padding-bottom: 30px}
+.topic-title{text-align:center;font-family:'Playfair Display',serif;font-size:2.2rem;margin:0;color:var(--text)}
+.topic-intro{max-width:800px;margin:12px auto 24px;color:var(--muted);text-align:center}
 .topic-title-for-page{text-align:center;font-family:'Playfair Display',serif;font-size:2.2rem;margin:0;color:var(--text);padding-bottom: 30px}
 .topic-intro-for-page{max-width:800px;margin:12px auto 24px;color:var(--muted);text-align:center;padding-bottom: 30px}
 
