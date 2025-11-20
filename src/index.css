@@ -37,7 +37,7 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 /* index.css (Line 46) */
 .topic-card {
   background: var(--panel);
-  padding: 10px 18px 12px 18px; /* Changed vertical padding: 10px top, 12px bottom */
+  padding: 7px 18px 9px 18px; /* Changed vertical padding: 10px top, 12px bottom */
   border-radius: 10px;
   border: 2px solid rgb(191, 174, 146);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
