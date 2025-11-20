@@ -52,6 +52,11 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     font-family: 'Playfair Display', serif; /* szebb lesz */
     letter-spacing: 0.5px;
 }
+.topic-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .topic-card .muted{color:var(--muted);font-size:1.2rem}
 .topic-card-link{text-decoration:none;color:inherit}
 
@@ -133,6 +138,20 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+.save-container {
+    display: flex;
+    align-items: center;
+}
+
+.topic-card-date-bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    font-size: 1.1rem;
+    color: var(--muted);
+    opacity: 0.9;
 }
 
 /* KÖZÉPRE IGAZÍTOTT FŐCÍM */
