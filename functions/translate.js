@@ -14,23 +14,35 @@ export async function onRequestPost(context) {
         const translatedTexts = [];
 
         for (const t of texts) {
-            const res = await fetch("https://libretranslate.de/translate", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    q: t,
-                    source: "hu",
-                    target: "en",
-                    format: "text"
-                })
-            });
+          let json;
+          try {
+              const res = await fetch("https://libretranslate.de/translate", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({
+                      q: t,
+                      source: "hu",
+                      target: "en",
+                      format: "text"
+                  })
+              });
 
-            const json = await res.json();
+              const text = await res.text(); // <-- get raw text
+              try {
+                  json = JSON.parse(text);  // try parsing JSON
+              } catch(e) {
+                  console.error("Non-JSON response from LibreTranslate:", text);
+                  throw new Error("Translation service returned invalid response");
+              }
 
-            translatedTexts.push(json.translatedText || "");
+          } catch (err) {
+              console.error("Fetch error:", err);
+              throw err;
+          }
+
+          translatedTexts.push(json.translatedText || "");
         }
+
 
         return new Response(JSON.stringify({ translatedTexts }), {
             headers: { "Content-Type": "application/json" }
