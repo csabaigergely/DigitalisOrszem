@@ -53,30 +53,34 @@ export default function App() {
     };
 
     const translateUI = async () => {
+      // wait a tiny bit to make sure all React content is rendered
+      setTimeout(async () => {
         const textNodes = extractTextNodes(document.body);
         if (textNodes.length === 0) return;
 
         const texts = textNodes.map(t => t.text);
 
         try {
-            const res = await fetch("/translate", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ texts })
-            });
+          const res = await fetch("/translate", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ texts }),
+          });
 
-            const data = await res.json();
-            if (!data.translatedTexts) throw new Error("No translatedTexts returned");
+          const data = await res.json();
+          if (!data.translatedTexts) throw new Error("No translatedTexts returned");
 
-            textNodes.forEach((item, i) => {
-                item.node.nodeValue = data.translatedTexts[i];
-            });
+          textNodes.forEach((item, i) => {
+            item.node.nodeValue = data.translatedTexts[i];
+          });
 
-            setLanguage(language === "hu" ? "en" : "hu");
+          setLanguage(language === "hu" ? "en" : "hu");
         } catch (err) {
-            console.error("UI translation failed:", err);
+          console.error("UI translation failed:", err);
         }
+      }, 100); // 100ms delay ensures React has rendered all components
     };
+
 
     useEffect(() => {
         const unsub = onAuthStateChanged(auth, (u) => {
