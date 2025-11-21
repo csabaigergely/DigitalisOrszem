@@ -1,25 +1,38 @@
-// /functions/translate.js
 export async function onRequestPost(context) {
     try {
         const body = await context.request.json();
-        const text = body.text || "";
+        const texts = body.texts;
 
-        const response = await fetch("https://libretranslate.de/translate", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                q: text,
-                source: "hu",
-                target: "en",
-                format: "text"
-            })
-        });
+        if (!texts || !Array.isArray(texts)) {
+            return new Response(JSON.stringify({ error: "Missing 'texts' array" }), {
+                status: 400,
+                headers: { "Content-Type": "application/json" }
+            });
+        }
 
-        const data = await response.json();
+        // Translate one by one (LibreTranslate does not support batch requests)
+        const translatedTexts = [];
 
-        return new Response(JSON.stringify({ translatedText: data.translatedText }), {
+        for (const t of texts) {
+            const res = await fetch("https://libretranslate.de/translate", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    q: t,
+                    source: "hu",
+                    target: "en",
+                    format: "text"
+                })
+            });
+
+            const json = await res.json();
+
+            translatedTexts.push(json.translatedText || "");
+        }
+
+        return new Response(JSON.stringify({ translatedTexts }), {
             headers: { "Content-Type": "application/json" }
         });
 

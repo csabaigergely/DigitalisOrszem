@@ -1,0 +1,3838 @@
+Folder PATH listing
+Volume serial number is 8605-167D
+C:.
++---.vs
+¦   +---DigitalisOrszem
+¦       +---FileContentIndex
+¦       +---v17
++---dist
+¦   +---assets
++---functions
++---node_modules
+¦   +---.bin
+¦   +---.vite
+¦   ¦   +---deps
+¦   +---.vite-temp
+¦   +---@babel
+¦   ¦   +---code-frame
+¦   ¦   ¦   +---lib
+¦   ¦   +---compat-data
+¦   ¦   ¦   +---data
+¦   ¦   +---core
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   +---config
+¦   ¦   ¦   ¦   ¦   +---files
+¦   ¦   ¦   ¦   ¦   +---helpers
+¦   ¦   ¦   ¦   ¦   +---validation
+¦   ¦   ¦   ¦   +---errors
+¦   ¦   ¦   ¦   +---gensync-utils
+¦   ¦   ¦   ¦   +---parser
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---tools
+¦   ¦   ¦   ¦   +---transformation
+¦   ¦   ¦   ¦   ¦   +---file
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---vendor
+¦   ¦   ¦   +---src
+¦   ¦   ¦       +---config
+¦   ¦   ¦           +---files
+¦   ¦   +---generator
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---generators
+¦   ¦   ¦       +---node
+¦   ¦   +---helper-compilation-targets
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-globals
+¦   ¦   ¦   +---data
+¦   ¦   +---helper-module-imports
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-module-transforms
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-plugin-utils
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-string-parser
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-validator-identifier
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-validator-option
+¦   ¦   ¦   +---lib
+¦   ¦   +---helpers
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---helpers
+¦   ¦   +---parser
+¦   ¦   ¦   +---bin
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---typings
+¦   ¦   +---plugin-transform-react-jsx-self
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-react-jsx-source
+¦   ¦   ¦   +---lib
+¦   ¦   +---template
+¦   ¦   ¦   +---lib
+¦   ¦   +---traverse
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---path
+¦   ¦   ¦       ¦   +---inference
+¦   ¦   ¦       ¦   +---lib
+¦   ¦   ¦       +---scope
+¦   ¦   ¦           +---lib
+¦   ¦   +---types
+¦   ¦       +---lib
+¦   ¦           +---asserts
+¦   ¦           ¦   +---generated
+¦   ¦           +---ast-types
+¦   ¦           ¦   +---generated
+¦   ¦           +---builders
+¦   ¦           ¦   +---flow
+¦   ¦           ¦   +---generated
+¦   ¦           ¦   +---react
+¦   ¦           ¦   +---typescript
+¦   ¦           +---clone
+¦   ¦           +---comments
+¦   ¦           +---constants
+¦   ¦           ¦   +---generated
+¦   ¦           +---converters
+¦   ¦           +---definitions
+¦   ¦           +---modifications
+¦   ¦           ¦   +---flow
+¦   ¦           ¦   +---typescript
+¦   ¦           +---retrievers
+¦   ¦           +---traverse
+¦   ¦           +---utils
+¦   ¦           ¦   +---react
+¦   ¦           +---validators
+¦   ¦               +---generated
+¦   ¦               +---react
+¦   +---@esbuild
+¦   ¦   +---win32-x64
+¦   +---@eslint
+¦   +---@eslint-community
+¦   +---@firebase
+¦   ¦   +---analytics
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---testing
+¦   ¦   ¦       ¦       +---integration-tests
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---testing
+¦   ¦   ¦           +---integration-tests
+¦   ¦   +---analytics-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       +---src
+¦   ¦   +---analytics-types
+¦   ¦   +---app
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---app
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---esm
+¦   ¦   ¦           +---app
+¦   ¦   ¦               +---src
+¦   ¦   ¦               +---test
+¦   ¦   +---app-check
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---app-check-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       +---src
+¦   ¦   +---app-check-interop-types
+¦   ¦   +---app-check-types
+¦   ¦   +---app-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---test
+¦   ¦   +---app-types
+¦   ¦   +---auth-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---auth-compat
+¦   ¦   ¦   ¦   ¦   +---scripts
+¦   ¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦   ¦   +---test
+¦   ¦   ¦   ¦   ¦       +---helpers
+¦   ¦   ¦   ¦   ¦       +---integration
+¦   ¦   ¦   ¦   ¦           +---flows
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦       +---auth-compat
+¦   ¦   ¦   ¦           +---scripts
+¦   ¦   ¦   ¦           +---src
+¦   ¦   ¦   ¦           +---test
+¦   ¦   ¦   ¦               +---helpers
+¦   ¦   ¦   ¦               +---integration
+¦   ¦   ¦   ¦                   +---flows
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---@firebase
+¦   ¦   ¦           +---auth
+¦   ¦   ¦               +---cordova
+¦   ¦   ¦               +---dist
+¦   ¦   ¦               ¦   +---browser-cjs
+¦   ¦   ¦               ¦   ¦   +---internal
+¦   ¦   ¦               ¦   ¦   +---scripts
+¦   ¦   ¦               ¦   ¦   +---src
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   ¦   +---test
+¦   ¦   ¦               ¦   ¦       +---helpers
+¦   ¦   ¦               ¦   ¦       ¦   +---api
+¦   ¦   ¦               ¦   ¦       ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---integration
+¦   ¦   ¦               ¦   ¦           +---flows
+¦   ¦   ¦               ¦   ¦           +---webdriver
+¦   ¦   ¦               ¦   ¦               +---compat
+¦   ¦   ¦               ¦   ¦               +---util
+¦   ¦   ¦               ¦   +---cordova
+¦   ¦   ¦               ¦   ¦   +---internal
+¦   ¦   ¦               ¦   ¦   +---scripts
+¦   ¦   ¦               ¦   ¦   +---src
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   ¦   +---test
+¦   ¦   ¦               ¦   ¦       +---helpers
+¦   ¦   ¦               ¦   ¦       ¦   +---api
+¦   ¦   ¦               ¦   ¦       ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---integration
+¦   ¦   ¦               ¦   ¦           +---flows
+¦   ¦   ¦               ¦   ¦           +---webdriver
+¦   ¦   ¦               ¦   ¦               +---compat
+¦   ¦   ¦               ¦   ¦               +---util
+¦   ¦   ¦               ¦   +---esm2017
+¦   ¦   ¦               ¦   ¦   +---internal
+¦   ¦   ¦               ¦   ¦   +---scripts
+¦   ¦   ¦               ¦   ¦   +---src
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   ¦   +---test
+¦   ¦   ¦               ¦   ¦       +---helpers
+¦   ¦   ¦               ¦   ¦       ¦   +---api
+¦   ¦   ¦               ¦   ¦       ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---integration
+¦   ¦   ¦               ¦   ¦           +---flows
+¦   ¦   ¦               ¦   ¦           +---webdriver
+¦   ¦   ¦               ¦   ¦               +---compat
+¦   ¦   ¦               ¦   ¦               +---util
+¦   ¦   ¦               ¦   +---esm5
+¦   ¦   ¦               ¦   ¦   +---internal
+¦   ¦   ¦               ¦   ¦   +---scripts
+¦   ¦   ¦               ¦   ¦   +---src
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   ¦   +---test
+¦   ¦   ¦               ¦   ¦       +---helpers
+¦   ¦   ¦               ¦   ¦       ¦   +---api
+¦   ¦   ¦               ¦   ¦       ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---integration
+¦   ¦   ¦               ¦   ¦           +---flows
+¦   ¦   ¦               ¦   ¦           +---webdriver
+¦   ¦   ¦               ¦   ¦               +---compat
+¦   ¦   ¦               ¦   ¦               +---util
+¦   ¦   ¦               ¦   +---internal
+¦   ¦   ¦               ¦   +---node
+¦   ¦   ¦               ¦   ¦   +---internal
+¦   ¦   ¦               ¦   ¦   +---scripts
+¦   ¦   ¦               ¦   ¦   +---src
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   ¦   +---test
+¦   ¦   ¦               ¦   ¦       +---helpers
+¦   ¦   ¦               ¦   ¦       ¦   +---api
+¦   ¦   ¦               ¦   ¦       ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---integration
+¦   ¦   ¦               ¦   ¦           +---flows
+¦   ¦   ¦               ¦   ¦           +---webdriver
+¦   ¦   ¦               ¦   ¦               +---compat
+¦   ¦   ¦               ¦   ¦               +---util
+¦   ¦   ¦               ¦   +---node-esm
+¦   ¦   ¦               ¦   ¦   +---internal
+¦   ¦   ¦               ¦   ¦   +---scripts
+¦   ¦   ¦               ¦   ¦   +---src
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   ¦   +---test
+¦   ¦   ¦               ¦   ¦       +---helpers
+¦   ¦   ¦               ¦   ¦       ¦   +---api
+¦   ¦   ¦               ¦   ¦       ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---integration
+¦   ¦   ¦               ¦   ¦           +---flows
+¦   ¦   ¦               ¦   ¦           +---webdriver
+¦   ¦   ¦               ¦   ¦               +---compat
+¦   ¦   ¦               ¦   ¦               +---util
+¦   ¦   ¦               ¦   +---rn
+¦   ¦   ¦               ¦   ¦   +---internal
+¦   ¦   ¦               ¦   ¦   +---scripts
+¦   ¦   ¦               ¦   ¦   +---src
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   ¦   +---test
+¦   ¦   ¦               ¦   ¦       +---helpers
+¦   ¦   ¦               ¦   ¦       ¦   +---api
+¦   ¦   ¦               ¦   ¦       ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---integration
+¦   ¦   ¦               ¦   ¦           +---flows
+¦   ¦   ¦               ¦   ¦           +---webdriver
+¦   ¦   ¦               ¦   ¦               +---compat
+¦   ¦   ¦               ¦   ¦               +---util
+¦   ¦   ¦               ¦   +---scripts
+¦   ¦   ¦               ¦   +---src
+¦   ¦   ¦               ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   +---test
+¦   ¦   ¦               ¦   ¦   +---helpers
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   +---integration
+¦   ¦   ¦               ¦   ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---flows
+¦   ¦   ¦               ¦   ¦       +---webdriver
+¦   ¦   ¦               ¦   ¦           +---compat
+¦   ¦   ¦               ¦   ¦           +---util
+¦   ¦   ¦               ¦   +---web-extension-cjs
+¦   ¦   ¦               ¦   ¦   +---internal
+¦   ¦   ¦               ¦   ¦   +---scripts
+¦   ¦   ¦               ¦   ¦   +---src
+¦   ¦   ¦               ¦   ¦   ¦   +---api
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦               ¦   ¦   ¦   +---core
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   +---model
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦               ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦               ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦               ¦   ¦   ¦       +---persistence
+¦   ¦   ¦               ¦   ¦   +---test
+¦   ¦   ¦               ¦   ¦       +---helpers
+¦   ¦   ¦               ¦   ¦       ¦   +---api
+¦   ¦   ¦               ¦   ¦       ¦   +---integration
+¦   ¦   ¦               ¦   ¦       +---integration
+¦   ¦   ¦               ¦   ¦           +---flows
+¦   ¦   ¦               ¦   ¦           +---webdriver
+¦   ¦   ¦               ¦   ¦               +---compat
+¦   ¦   ¦               ¦   ¦               +---util
+¦   ¦   ¦               ¦   +---web-extension-esm2017
+¦   ¦   ¦               ¦       +---internal
+¦   ¦   ¦               ¦       +---scripts
+¦   ¦   ¦               ¦       +---src
+¦   ¦   ¦               ¦       ¦   +---api
+¦   ¦   ¦               ¦       ¦   ¦   +---account_management
+¦   ¦   ¦               ¦       ¦   ¦   +---authentication
+¦   ¦   ¦               ¦       ¦   ¦   +---password_policy
+¦   ¦   ¦               ¦       ¦   ¦   +---project_config
+¦   ¦   ¦               ¦       ¦   +---core
+¦   ¦   ¦               ¦       ¦   ¦   +---auth
+¦   ¦   ¦               ¦       ¦   ¦   +---credentials
+¦   ¦   ¦               ¦       ¦   ¦   +---persistence
+¦   ¦   ¦               ¦       ¦   ¦   +---providers
+¦   ¦   ¦               ¦       ¦   ¦   +---strategies
+¦   ¦   ¦               ¦       ¦   ¦   +---user
+¦   ¦   ¦               ¦       ¦   ¦   +---util
+¦   ¦   ¦               ¦       ¦   +---mfa
+¦   ¦   ¦               ¦       ¦   ¦   +---assertions
+¦   ¦   ¦               ¦       ¦   +---model
+¦   ¦   ¦               ¦       ¦   +---platform_browser
+¦   ¦   ¦               ¦       ¦   ¦   +---iframe
+¦   ¦   ¦               ¦       ¦   ¦   +---messagechannel
+¦   ¦   ¦               ¦       ¦   ¦   +---mfa
+¦   ¦   ¦               ¦       ¦   ¦   ¦   +---assertions
+¦   ¦   ¦               ¦       ¦   ¦   +---persistence
+¦   ¦   ¦               ¦       ¦   ¦   +---providers
+¦   ¦   ¦               ¦       ¦   ¦   +---recaptcha
+¦   ¦   ¦               ¦       ¦   ¦   +---strategies
+¦   ¦   ¦               ¦       ¦   ¦   +---util
+¦   ¦   ¦               ¦       ¦   +---platform_cordova
+¦   ¦   ¦               ¦       ¦   ¦   +---popup_redirect
+¦   ¦   ¦               ¦       ¦   ¦   +---strategies
+¦   ¦   ¦               ¦       ¦   +---platform_node
+¦   ¦   ¦               ¦       ¦   +---platform_react_native
+¦   ¦   ¦               ¦       ¦       +---persistence
+¦   ¦   ¦               ¦       +---test
+¦   ¦   ¦               ¦           +---helpers
+¦   ¦   ¦               ¦           ¦   +---api
+¦   ¦   ¦               ¦           ¦   +---integration
+¦   ¦   ¦               ¦           +---integration
+¦   ¦   ¦               ¦               +---flows
+¦   ¦   ¦               ¦               +---webdriver
+¦   ¦   ¦               ¦                   +---compat
+¦   ¦   ¦               ¦                   +---util
+¦   ¦   ¦               +---internal
+¦   ¦   ¦               +---web-extension
+¦   ¦   +---auth-interop-types
+¦   ¦   +---auth-types
+¦   ¦   +---component
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---data-connect
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---node-esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦       +---api
+¦   ¦   ¦       ¦       +---core
+¦   ¦   ¦       ¦       +---network
+¦   ¦   ¦       ¦       ¦   +---transport
+¦   ¦   ¦       ¦       +---util
+¦   ¦   ¦       +---src
+¦   ¦   ¦           +---api
+¦   ¦   ¦           +---core
+¦   ¦   ¦           +---network
+¦   ¦   ¦           ¦   +---transport
+¦   ¦   ¦           +---util
+¦   ¦   +---database
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---node-esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   ¦   +---api
+¦   ¦   ¦       ¦   ¦   +---core
+¦   ¦   ¦       ¦   ¦   ¦   +---operation
+¦   ¦   ¦       ¦   ¦   ¦   +---snap
+¦   ¦   ¦       ¦   ¦   ¦   ¦   +---indexes
+¦   ¦   ¦       ¦   ¦   ¦   +---stats
+¦   ¦   ¦       ¦   ¦   ¦   +---storage
+¦   ¦   ¦       ¦   ¦   ¦   +---util
+¦   ¦   ¦       ¦   ¦   ¦   ¦   +---libs
+¦   ¦   ¦       ¦   ¦   ¦   +---view
+¦   ¦   ¦       ¦   ¦   ¦       +---filter
+¦   ¦   ¦       ¦   ¦   +---internal
+¦   ¦   ¦       ¦   ¦   +---realtime
+¦   ¦   ¦       ¦   ¦       +---polling
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       ¦       +---exp
+¦   ¦   ¦       ¦       +---helpers
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   +---api
+¦   ¦   ¦       ¦   +---core
+¦   ¦   ¦       ¦   ¦   +---operation
+¦   ¦   ¦       ¦   ¦   +---snap
+¦   ¦   ¦       ¦   ¦   ¦   +---indexes
+¦   ¦   ¦       ¦   ¦   +---stats
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   ¦   +---util
+¦   ¦   ¦       ¦   ¦   ¦   +---libs
+¦   ¦   ¦       ¦   ¦   +---view
+¦   ¦   ¦       ¦   ¦       +---filter
+¦   ¦   ¦       ¦   +---internal
+¦   ¦   ¦       ¦   +---realtime
+¦   ¦   ¦       ¦       +---polling
+¦   ¦   ¦       +---test
+¦   ¦   ¦           +---exp
+¦   ¦   ¦           +---helpers
+¦   ¦   +---database-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---database-compat
+¦   ¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦   ¦   ¦   +---api
+¦   ¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   ¦   +---test
+¦   ¦   ¦   ¦   ¦       +---browser
+¦   ¦   ¦   ¦   ¦       +---helpers
+¦   ¦   ¦   ¦   +---node-esm
+¦   ¦   ¦   ¦       +---database-compat
+¦   ¦   ¦   ¦           +---src
+¦   ¦   ¦   ¦           ¦   +---api
+¦   ¦   ¦   ¦           ¦   +---util
+¦   ¦   ¦   ¦           +---test
+¦   ¦   ¦   ¦               +---browser
+¦   ¦   ¦   ¦               +---helpers
+¦   ¦   ¦   +---standalone
+¦   ¦   +---database-types
+¦   ¦   +---firestore
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦   ¦   ¦   +---api
+¦   ¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---core
+¦   ¦   ¦   ¦   ¦   ¦   +---index
+¦   ¦   ¦   ¦   ¦   ¦   +---lite-api
+¦   ¦   ¦   ¦   ¦   ¦   +---local
+¦   ¦   ¦   ¦   ¦   ¦   +---model
+¦   ¦   ¦   ¦   ¦   ¦   +---platform
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---browser
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---browser_lite
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---node
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---node_lite
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---rn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---rn_lite
+¦   ¦   ¦   ¦   ¦   ¦   +---protos
+¦   ¦   ¦   ¦   ¦   ¦   +---remote
+¦   ¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   ¦   +---test
+¦   ¦   ¦   ¦   ¦       +---integration
+¦   ¦   ¦   ¦   ¦       ¦   +---api
+¦   ¦   ¦   ¦   ¦       ¦   +---api_internal
+¦   ¦   ¦   ¦   ¦       ¦   +---browser
+¦   ¦   ¦   ¦   ¦       ¦   +---remote
+¦   ¦   ¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦   ¦   ¦       +---lite
+¦   ¦   ¦   ¦   ¦       +---unit
+¦   ¦   ¦   ¦   ¦       ¦   +---api
+¦   ¦   ¦   ¦   ¦       ¦   +---core
+¦   ¦   ¦   ¦   ¦       ¦   +---index
+¦   ¦   ¦   ¦   ¦       ¦   +---lite-api
+¦   ¦   ¦   ¦   ¦       ¦   +---local
+¦   ¦   ¦   ¦   ¦       ¦   +---model
+¦   ¦   ¦   ¦   ¦       ¦   +---remote
+¦   ¦   ¦   ¦   ¦       ¦   ¦   +---bloom_filter_golden_test_data
+¦   ¦   ¦   ¦   ¦       ¦   +---specs
+¦   ¦   ¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦   ¦   ¦       +---util
+¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---api
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---core
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---index
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---lite-api
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---local
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---model
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---platform
+¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +---browser
+¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +---browser_lite
+¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +---node
+¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +---node_lite
+¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +---rn
+¦   ¦   ¦   ¦   ¦   ¦   ¦   ¦   +---rn_lite
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---protos
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---remote
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   ¦   ¦   +---test
+¦   ¦   ¦   ¦   ¦   ¦       +---integration
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---api
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---api_internal
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---browser
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---remote
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦   ¦   ¦   ¦       +---lite
+¦   ¦   ¦   ¦   ¦   ¦       +---unit
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---api
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---core
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---index
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---lite-api
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---local
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---model
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---remote
+¦   ¦   ¦   ¦   ¦   ¦       ¦   ¦   +---bloom_filter_golden_test_data
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---specs
+¦   ¦   ¦   ¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦   ¦   ¦   ¦       +---util
+¦   ¦   ¦   ¦   ¦   +---packages
+¦   ¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦   ¦           +---dist
+¦   ¦   ¦   ¦   ¦           ¦   +---lite
+¦   ¦   ¦   ¦   ¦           +---lite
+¦   ¦   ¦   ¦   ¦           +---src
+¦   ¦   ¦   ¦   ¦           ¦   +---api
+¦   ¦   ¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦   ¦   ¦           ¦   +---core
+¦   ¦   ¦   ¦   ¦           ¦   +---index
+¦   ¦   ¦   ¦   ¦           ¦   +---lite-api
+¦   ¦   ¦   ¦   ¦           ¦   +---local
+¦   ¦   ¦   ¦   ¦           ¦   +---model
+¦   ¦   ¦   ¦   ¦           ¦   +---platform
+¦   ¦   ¦   ¦   ¦           ¦   ¦   +---browser
+¦   ¦   ¦   ¦   ¦           ¦   ¦   +---browser_lite
+¦   ¦   ¦   ¦   ¦           ¦   ¦   +---node
+¦   ¦   ¦   ¦   ¦           ¦   ¦   +---node_lite
+¦   ¦   ¦   ¦   ¦           ¦   ¦   +---rn
+¦   ¦   ¦   ¦   ¦           ¦   ¦   +---rn_lite
+¦   ¦   ¦   ¦   ¦           ¦   +---protos
+¦   ¦   ¦   ¦   ¦           ¦   +---remote
+¦   ¦   ¦   ¦   ¦           ¦   +---util
+¦   ¦   ¦   ¦   ¦           +---test
+¦   ¦   ¦   ¦   ¦               +---integration
+¦   ¦   ¦   ¦   ¦               ¦   +---api
+¦   ¦   ¦   ¦   ¦               ¦   +---api_internal
+¦   ¦   ¦   ¦   ¦               ¦   +---browser
+¦   ¦   ¦   ¦   ¦               ¦   +---remote
+¦   ¦   ¦   ¦   ¦               ¦   +---util
+¦   ¦   ¦   ¦   ¦               +---lite
+¦   ¦   ¦   ¦   ¦               +---unit
+¦   ¦   ¦   ¦   ¦               ¦   +---api
+¦   ¦   ¦   ¦   ¦               ¦   +---core
+¦   ¦   ¦   ¦   ¦               ¦   +---index
+¦   ¦   ¦   ¦   ¦               ¦   +---lite-api
+¦   ¦   ¦   ¦   ¦               ¦   +---local
+¦   ¦   ¦   ¦   ¦               ¦   +---model
+¦   ¦   ¦   ¦   ¦               ¦   +---remote
+¦   ¦   ¦   ¦   ¦               ¦   ¦   +---bloom_filter_golden_test_data
+¦   ¦   ¦   ¦   ¦               ¦   +---specs
+¦   ¦   ¦   ¦   ¦               ¦   +---util
+¦   ¦   ¦   ¦   ¦               +---util
+¦   ¦   ¦   ¦   +---packages
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦           +---dist
+¦   ¦   ¦   ¦           +---lite
+¦   ¦   ¦   ¦           +---src
+¦   ¦   ¦   ¦           ¦   +---api
+¦   ¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦   ¦           ¦   +---core
+¦   ¦   ¦   ¦           ¦   +---index
+¦   ¦   ¦   ¦           ¦   +---lite-api
+¦   ¦   ¦   ¦           ¦   +---local
+¦   ¦   ¦   ¦           ¦   +---model
+¦   ¦   ¦   ¦           ¦   +---platform
+¦   ¦   ¦   ¦           ¦   ¦   +---browser
+¦   ¦   ¦   ¦           ¦   ¦   +---browser_lite
+¦   ¦   ¦   ¦           ¦   ¦   +---node
+¦   ¦   ¦   ¦           ¦   ¦   +---node_lite
+¦   ¦   ¦   ¦           ¦   ¦   +---rn
+¦   ¦   ¦   ¦           ¦   ¦   +---rn_lite
+¦   ¦   ¦   ¦           ¦   +---protos
+¦   ¦   ¦   ¦           ¦   +---remote
+¦   ¦   ¦   ¦           ¦   +---util
+¦   ¦   ¦   ¦           +---test
+¦   ¦   ¦   ¦               +---integration
+¦   ¦   ¦   ¦               ¦   +---api
+¦   ¦   ¦   ¦               ¦   +---api_internal
+¦   ¦   ¦   ¦               ¦   +---browser
+¦   ¦   ¦   ¦               ¦   +---remote
+¦   ¦   ¦   ¦               ¦   +---util
+¦   ¦   ¦   ¦               +---lite
+¦   ¦   ¦   ¦               +---unit
+¦   ¦   ¦   ¦               ¦   +---api
+¦   ¦   ¦   ¦               ¦   +---core
+¦   ¦   ¦   ¦               ¦   +---index
+¦   ¦   ¦   ¦               ¦   +---lite-api
+¦   ¦   ¦   ¦               ¦   +---local
+¦   ¦   ¦   ¦               ¦   +---model
+¦   ¦   ¦   ¦               ¦   +---remote
+¦   ¦   ¦   ¦               ¦   ¦   +---bloom_filter_golden_test_data
+¦   ¦   ¦   ¦               ¦   +---specs
+¦   ¦   ¦   ¦               ¦   +---util
+¦   ¦   ¦   ¦               +---util
+¦   ¦   ¦   +---lite
+¦   ¦   +---firestore-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---node-esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   ¦   +---api
+¦   ¦   ¦       ¦   ¦   +---util
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       ¦       +---util
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   +---api
+¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦       +---test
+¦   ¦   ¦           +---util
+¦   ¦   +---firestore-types
+¦   ¦   +---functions
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm-node
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---functions-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---node-esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---functions-types
+¦   ¦   +---installations
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦       +---api
+¦   ¦   ¦       ¦       +---functions
+¦   ¦   ¦       ¦       +---helpers
+¦   ¦   ¦       ¦       +---interfaces
+¦   ¦   ¦       ¦       +---testing
+¦   ¦   ¦       ¦       +---util
+¦   ¦   ¦       +---src
+¦   ¦   ¦           +---api
+¦   ¦   ¦           +---functions
+¦   ¦   ¦           +---helpers
+¦   ¦   ¦           +---interfaces
+¦   ¦   ¦           +---testing
+¦   ¦   ¦           +---util
+¦   ¦   +---installations-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦       +---testing
+¦   ¦   ¦       +---src
+¦   ¦   ¦           +---testing
+¦   ¦   +---installations-types
+¦   ¦   +---logger
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---messaging
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦   ¦       +---api
+¦   ¦   ¦   ¦   ¦       +---helpers
+¦   ¦   ¦   ¦   ¦       +---interfaces
+¦   ¦   ¦   ¦   ¦       +---internals
+¦   ¦   ¦   ¦   ¦       +---listeners
+¦   ¦   ¦   ¦   ¦       +---testing
+¦   ¦   ¦   ¦   ¦       ¦   +---fakes
+¦   ¦   ¦   ¦   ¦       +---util
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦   ¦   +---api
+¦   ¦   ¦   ¦   ¦   +---helpers
+¦   ¦   ¦   ¦   ¦   +---interfaces
+¦   ¦   ¦   ¦   ¦   +---internals
+¦   ¦   ¦   ¦   ¦   +---listeners
+¦   ¦   ¦   ¦   ¦   +---testing
+¦   ¦   ¦   ¦   ¦   ¦   +---fakes
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   +---sw
+¦   ¦   +---messaging-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---messaging-interop-types
+¦   ¦   +---performance
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   ¦   +---controllers
+¦   ¦   ¦       ¦   ¦   +---resources
+¦   ¦   ¦       ¦   ¦   +---services
+¦   ¦   ¦       ¦   ¦   +---utils
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   +---controllers
+¦   ¦   ¦       ¦   +---resources
+¦   ¦   ¦       ¦   +---services
+¦   ¦   ¦       ¦   +---utils
+¦   ¦   ¦       +---test
+¦   ¦   +---performance-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---performance-types
+¦   ¦   +---remote-config
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   ¦   +---client
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       ¦       +---client
+¦   ¦   ¦       ¦       +---storage
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   +---client
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---test
+¦   ¦   ¦           +---client
+¦   ¦   ¦           +---storage
+¦   ¦   +---remote-config-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---remote-config-types
+¦   ¦   +---storage
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---node-esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   ¦   +---implementation
+¦   ¦   ¦       ¦   ¦   +---platform
+¦   ¦   ¦       ¦   ¦       +---browser
+¦   ¦   ¦       ¦   ¦       +---node
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       ¦       +---browser
+¦   ¦   ¦       ¦       +---integration
+¦   ¦   ¦       ¦       +---node
+¦   ¦   ¦       ¦       +---unit
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   +---implementation
+¦   ¦   ¦       ¦   +---platform
+¦   ¦   ¦       ¦       +---browser
+¦   ¦   ¦       ¦       +---node
+¦   ¦   ¦       +---test
+¦   ¦   ¦           +---browser
+¦   ¦   ¦           +---integration
+¦   ¦   ¦           +---node
+¦   ¦   ¦           +---unit
+¦   ¦   +---storage-compat
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       ¦       +---integration
+¦   ¦   ¦       ¦       +---unit
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   ¦           +---integration
+¦   ¦   ¦           +---unit
+¦   ¦   +---storage-types
+¦   ¦   +---util
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---node-esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   +---test
+¦   ¦   ¦       +---src
+¦   ¦   ¦       +---test
+¦   ¦   +---vertexai-preview
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---src
+¦   ¦   ¦       ¦   ¦   +---methods
+¦   ¦   ¦       ¦   ¦   +---models
+¦   ¦   ¦       ¦   ¦   +---requests
+¦   ¦   ¦       ¦   ¦   +---types
+¦   ¦   ¦       ¦   +---test-utils
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   +---methods
+¦   ¦   ¦       ¦   +---models
+¦   ¦   ¦       ¦   +---requests
+¦   ¦   ¦       ¦   +---types
+¦   ¦   ¦       +---test-utils
+¦   ¦   +---webchannel-wrapper
+¦   ¦       +---bloom-blob
+¦   ¦       +---dist
+¦   ¦       ¦   +---bloom-blob
+¦   ¦       ¦   ¦   +---esm
+¦   ¦       ¦   +---webchannel-blob
+¦   ¦       ¦       +---esm
+¦   ¦       +---webchannel-blob
+¦   +---@grpc
+¦   ¦   +---grpc-js
+¦   ¦   ¦   +---build
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦       +---generated
+¦   ¦   ¦   ¦           +---google
+¦   ¦   ¦   ¦           ¦   +---protobuf
+¦   ¦   ¦   ¦           +---grpc
+¦   ¦   ¦   ¦               +---channelz
+¦   ¦   ¦   ¦                   +---v1
+¦   ¦   ¦   +---proto
+¦   ¦   ¦   +---src
+¦   ¦   ¦       +---generated
+¦   ¦   ¦           +---google
+¦   ¦   ¦           ¦   +---protobuf
+¦   ¦   ¦           +---grpc
+¦   ¦   ¦               +---channelz
+¦   ¦   ¦                   +---v1
+¦   ¦   +---proto-loader
+¦   ¦       +---build
+¦   ¦           +---bin
+¦   ¦           +---src
+¦   +---@humanfs
+¦   +---@humanwhocodes
+¦   +---@jridgewell
+¦   ¦   +---gen-mapping
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   +---src
+¦   ¦   ¦   +---types
+¦   ¦   +---remapping
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   +---src
+¦   ¦   ¦   +---types
+¦   ¦   +---resolve-uri
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---types
+¦   ¦   +---sourcemap-codec
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   +---src
+¦   ¦   ¦   +---types
+¦   ¦   +---trace-mapping
+¦   ¦       +---dist
+¦   ¦       +---src
+¦   ¦       +---types
+¦   +---@protobufjs
+¦   ¦   +---aspromise
+¦   ¦   ¦   +---tests
+¦   ¦   +---base64
+¦   ¦   ¦   +---tests
+¦   ¦   +---codegen
+¦   ¦   ¦   +---tests
+¦   ¦   +---eventemitter
+¦   ¦   ¦   +---tests
+¦   ¦   +---fetch
+¦   ¦   ¦   +---tests
+¦   ¦   +---float
+¦   ¦   ¦   +---bench
+¦   ¦   ¦   +---tests
+¦   ¦   +---inquire
+¦   ¦   ¦   +---tests
+¦   ¦   ¦       +---data
+¦   ¦   +---path
+¦   ¦   ¦   +---tests
+¦   ¦   +---pool
+¦   ¦   ¦   +---tests
+¦   ¦   +---utf8
+¦   ¦       +---tests
+¦   ¦           +---data
+¦   +---@remix-run
+¦   ¦   +---router
+¦   ¦       +---dist
+¦   +---@rolldown
+¦   ¦   +---pluginutils
+¦   ¦       +---dist
+¦   +---@rollup
+¦   +---@types
+¦   ¦   +---babel__core
+¦   ¦   +---babel__generator
+¦   ¦   +---babel__template
+¦   ¦   +---babel__traverse
+¦   ¦   +---node
+¦   ¦       +---assert
+¦   ¦       +---compatibility
+¦   ¦       +---dns
+¦   ¦       +---fs
+¦   ¦       +---readline
+¦   ¦       +---stream
+¦   ¦       +---timers
+¦   ¦       +---ts5.6
+¦   ¦       ¦   +---compatibility
+¦   ¦       +---ts5.7
+¦   ¦       ¦   +---compatibility
+¦   ¦       +---web-globals
+¦   +---@vitejs
+¦   ¦   +---plugin-react
+¦   ¦       +---dist
+¦   +---ansi-regex
+¦   +---ansi-styles
+¦   +---baseline-browser-mapping
+¦   ¦   +---dist
+¦   +---browserslist
+¦   +---caniuse-lite
+¦   ¦   +---data
+¦   ¦   ¦   +---features
+¦   ¦   ¦   +---regions
+¦   ¦   +---dist
+¦   ¦       +---lib
+¦   ¦       +---unpacker
+¦   +---cliui
+¦   ¦   +---build
+¦   ¦       +---lib
+¦   +---color-convert
+¦   +---color-name
+¦   +---convert-source-map
+¦   +---debug
+¦   ¦   +---src
+¦   +---electron-to-chromium
+¦   +---emoji-regex
+¦   ¦   +---es2015
+¦   +---esbuild
+¦   ¦   +---bin
+¦   ¦   +---lib
+¦   +---escalade
+¦   ¦   +---dist
+¦   ¦   +---sync
+¦   +---faye-websocket
+¦   ¦   +---lib
+¦   ¦       +---faye
+¦   ¦           +---websocket
+¦   ¦               +---api
+¦   +---firebase
+¦   ¦   +---analytics
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---app
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---app-check
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---auth
+¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦   +---compat
+¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   +---data-connect
+¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦   ¦   +---compat
+¦   ¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦   +---data-connect
+¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦   +---vertexai-preview
+¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   +---vertexai-preview
+¦   ¦   ¦   +---web-extension
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---analytics
+¦   ¦   ¦           +---app
+¦   ¦   ¦           +---app-check
+¦   ¦   ¦           +---auth
+¦   ¦   ¦           ¦   +---cordova
+¦   ¦   ¦           ¦   +---web-extension
+¦   ¦   ¦           +---compat
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦   +---app
+¦   ¦   ¦           ¦   +---app-check
+¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦           ¦   +---database
+¦   ¦   ¦           ¦   +---firestore
+¦   ¦   ¦           ¦   +---functions
+¦   ¦   ¦           ¦   +---installations
+¦   ¦   ¦           ¦   +---messaging
+¦   ¦   ¦           ¦   +---performance
+¦   ¦   ¦           ¦   +---remote-config
+¦   ¦   ¦           ¦   +---storage
+¦   ¦   ¦           +---data-connect
+¦   ¦   ¦           +---database
+¦   ¦   ¦           +---esm
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦   +---app
+¦   ¦   ¦           ¦   +---app-check
+¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦           ¦   ¦   +---cordova
+¦   ¦   ¦           ¦   ¦   +---web-extension
+¦   ¦   ¦           ¦   +---compat
+¦   ¦   ¦           ¦   ¦   +---analytics
+¦   ¦   ¦           ¦   ¦   +---app
+¦   ¦   ¦           ¦   ¦   +---app-check
+¦   ¦   ¦           ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   +---database
+¦   ¦   ¦           ¦   ¦   +---firestore
+¦   ¦   ¦           ¦   ¦   +---functions
+¦   ¦   ¦           ¦   ¦   +---installations
+¦   ¦   ¦           ¦   ¦   +---messaging
+¦   ¦   ¦           ¦   ¦   +---performance
+¦   ¦   ¦           ¦   ¦   +---remote-config
+¦   ¦   ¦           ¦   ¦   +---storage
+¦   ¦   ¦           ¦   +---data-connect
+¦   ¦   ¦           ¦   +---database
+¦   ¦   ¦           ¦   +---firestore
+¦   ¦   ¦           ¦   ¦   +---lite
+¦   ¦   ¦           ¦   +---functions
+¦   ¦   ¦           ¦   +---installations
+¦   ¦   ¦           ¦   +---messaging
+¦   ¦   ¦           ¦   ¦   +---sw
+¦   ¦   ¦           ¦   +---performance
+¦   ¦   ¦           ¦   +---remote-config
+¦   ¦   ¦           ¦   +---storage
+¦   ¦   ¦           ¦   +---vertexai-preview
+¦   ¦   ¦           +---firestore
+¦   ¦   ¦           ¦   +---lite
+¦   ¦   ¦           +---functions
+¦   ¦   ¦           +---installations
+¦   ¦   ¦           +---messaging
+¦   ¦   ¦           ¦   +---sw
+¦   ¦   ¦           +---performance
+¦   ¦   ¦           +---remote-config
+¦   ¦   ¦           +---storage
+¦   ¦   ¦           +---vertexai-preview
+¦   ¦   +---compat
+¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦   +---compat
+¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   +---data-connect
+¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦   ¦   +---compat
+¦   ¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦   +---data-connect
+¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦   +---vertexai-preview
+¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   +---vertexai-preview
+¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---analytics
+¦   ¦   ¦   ¦       +---app
+¦   ¦   ¦   ¦       +---app-check
+¦   ¦   ¦   ¦       +---auth
+¦   ¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       +---data-connect
+¦   ¦   ¦   ¦       +---database
+¦   ¦   ¦   ¦       +---esm
+¦   ¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦   ¦       +---firestore
+¦   ¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦   ¦       +---functions
+¦   ¦   ¦   ¦       +---installations
+¦   ¦   ¦   ¦       +---messaging
+¦   ¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦   ¦       +---performance
+¦   ¦   ¦   ¦       +---remote-config
+¦   ¦   ¦   ¦       +---storage
+¦   ¦   ¦   ¦       +---vertexai-preview
+¦   ¦   ¦   +---storage
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---analytics
+¦   ¦   ¦           +---app
+¦   ¦   ¦           +---app-check
+¦   ¦   ¦           +---auth
+¦   ¦   ¦           ¦   +---cordova
+¦   ¦   ¦           ¦   +---web-extension
+¦   ¦   ¦           +---compat
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦   +---app
+¦   ¦   ¦           ¦   +---app-check
+¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦           ¦   +---database
+¦   ¦   ¦           ¦   +---firestore
+¦   ¦   ¦           ¦   +---functions
+¦   ¦   ¦           ¦   +---installations
+¦   ¦   ¦           ¦   +---messaging
+¦   ¦   ¦           ¦   +---performance
+¦   ¦   ¦           ¦   +---remote-config
+¦   ¦   ¦           ¦   +---storage
+¦   ¦   ¦           +---data-connect
+¦   ¦   ¦           +---database
+¦   ¦   ¦           +---esm
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦   +---app
+¦   ¦   ¦           ¦   +---app-check
+¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦           ¦   ¦   +---cordova
+¦   ¦   ¦           ¦   ¦   +---web-extension
+¦   ¦   ¦           ¦   +---compat
+¦   ¦   ¦           ¦   ¦   +---analytics
+¦   ¦   ¦           ¦   ¦   +---app
+¦   ¦   ¦           ¦   ¦   +---app-check
+¦   ¦   ¦           ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   +---database
+¦   ¦   ¦           ¦   ¦   +---firestore
+¦   ¦   ¦           ¦   ¦   +---functions
+¦   ¦   ¦           ¦   ¦   +---installations
+¦   ¦   ¦           ¦   ¦   +---messaging
+¦   ¦   ¦           ¦   ¦   +---performance
+¦   ¦   ¦           ¦   ¦   +---remote-config
+¦   ¦   ¦           ¦   ¦   +---storage
+¦   ¦   ¦           ¦   +---data-connect
+¦   ¦   ¦           ¦   +---database
+¦   ¦   ¦           ¦   +---firestore
+¦   ¦   ¦           ¦   ¦   +---lite
+¦   ¦   ¦           ¦   +---functions
+¦   ¦   ¦           ¦   +---installations
+¦   ¦   ¦           ¦   +---messaging
+¦   ¦   ¦           ¦   ¦   +---sw
+¦   ¦   ¦           ¦   +---performance
+¦   ¦   ¦           ¦   +---remote-config
+¦   ¦   ¦           ¦   +---storage
+¦   ¦   ¦           ¦   +---vertexai-preview
+¦   ¦   ¦           +---firestore
+¦   ¦   ¦           ¦   +---lite
+¦   ¦   ¦           +---functions
+¦   ¦   ¦           +---installations
+¦   ¦   ¦           +---messaging
+¦   ¦   ¦           ¦   +---sw
+¦   ¦   ¦           +---performance
+¦   ¦   ¦           +---remote-config
+¦   ¦   ¦           +---storage
+¦   ¦   ¦           +---vertexai-preview
+¦   ¦   +---data-connect
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---database
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---firestore
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦   +---compat
+¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   +---data-connect
+¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦   ¦   +---compat
+¦   ¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦   +---data-connect
+¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦   +---vertexai-preview
+¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   +---vertexai-preview
+¦   ¦   ¦   +---lite
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---analytics
+¦   ¦   ¦           +---app
+¦   ¦   ¦           +---app-check
+¦   ¦   ¦           +---auth
+¦   ¦   ¦           ¦   +---cordova
+¦   ¦   ¦           ¦   +---web-extension
+¦   ¦   ¦           +---compat
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦   +---app
+¦   ¦   ¦           ¦   +---app-check
+¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦           ¦   +---database
+¦   ¦   ¦           ¦   +---firestore
+¦   ¦   ¦           ¦   +---functions
+¦   ¦   ¦           ¦   +---installations
+¦   ¦   ¦           ¦   +---messaging
+¦   ¦   ¦           ¦   +---performance
+¦   ¦   ¦           ¦   +---remote-config
+¦   ¦   ¦           ¦   +---storage
+¦   ¦   ¦           +---data-connect
+¦   ¦   ¦           +---database
+¦   ¦   ¦           +---esm
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦   +---app
+¦   ¦   ¦           ¦   +---app-check
+¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦           ¦   ¦   +---cordova
+¦   ¦   ¦           ¦   ¦   +---web-extension
+¦   ¦   ¦           ¦   +---compat
+¦   ¦   ¦           ¦   ¦   +---analytics
+¦   ¦   ¦           ¦   ¦   +---app
+¦   ¦   ¦           ¦   ¦   +---app-check
+¦   ¦   ¦           ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   +---database
+¦   ¦   ¦           ¦   ¦   +---firestore
+¦   ¦   ¦           ¦   ¦   +---functions
+¦   ¦   ¦           ¦   ¦   +---installations
+¦   ¦   ¦           ¦   ¦   +---messaging
+¦   ¦   ¦           ¦   ¦   +---performance
+¦   ¦   ¦           ¦   ¦   +---remote-config
+¦   ¦   ¦           ¦   ¦   +---storage
+¦   ¦   ¦           ¦   +---data-connect
+¦   ¦   ¦           ¦   +---database
+¦   ¦   ¦           ¦   +---firestore
+¦   ¦   ¦           ¦   ¦   +---lite
+¦   ¦   ¦           ¦   +---functions
+¦   ¦   ¦           ¦   +---installations
+¦   ¦   ¦           ¦   +---messaging
+¦   ¦   ¦           ¦   ¦   +---sw
+¦   ¦   ¦           ¦   +---performance
+¦   ¦   ¦           ¦   +---remote-config
+¦   ¦   ¦           ¦   +---storage
+¦   ¦   ¦           ¦   +---vertexai-preview
+¦   ¦   ¦           +---firestore
+¦   ¦   ¦           ¦   +---lite
+¦   ¦   ¦           +---functions
+¦   ¦   ¦           +---installations
+¦   ¦   ¦           +---messaging
+¦   ¦   ¦           ¦   +---sw
+¦   ¦   ¦           +---performance
+¦   ¦   ¦           +---remote-config
+¦   ¦   ¦           +---storage
+¦   ¦   ¦           +---vertexai-preview
+¦   ¦   +---functions
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---installations
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---messaging
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦   +---compat
+¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   +---data-connect
+¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---cordova
+¦   ¦   ¦   ¦   ¦   ¦   +---web-extension
+¦   ¦   ¦   ¦   ¦   +---compat
+¦   ¦   ¦   ¦   ¦   ¦   +---analytics
+¦   ¦   ¦   ¦   ¦   ¦   +---app
+¦   ¦   ¦   ¦   ¦   ¦   +---app-check
+¦   ¦   ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦   +---data-connect
+¦   ¦   ¦   ¦   ¦   +---database
+¦   ¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   ¦   +---vertexai-preview
+¦   ¦   ¦   ¦   +---firestore
+¦   ¦   ¦   ¦   ¦   +---lite
+¦   ¦   ¦   ¦   +---functions
+¦   ¦   ¦   ¦   +---installations
+¦   ¦   ¦   ¦   +---messaging
+¦   ¦   ¦   ¦   ¦   +---sw
+¦   ¦   ¦   ¦   +---performance
+¦   ¦   ¦   ¦   +---remote-config
+¦   ¦   ¦   ¦   +---storage
+¦   ¦   ¦   ¦   +---vertexai-preview
+¦   ¦   ¦   +---sw
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---analytics
+¦   ¦   ¦           +---app
+¦   ¦   ¦           +---app-check
+¦   ¦   ¦           +---auth
+¦   ¦   ¦           ¦   +---cordova
+¦   ¦   ¦           ¦   +---web-extension
+¦   ¦   ¦           +---compat
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦   +---app
+¦   ¦   ¦           ¦   +---app-check
+¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦           ¦   +---database
+¦   ¦   ¦           ¦   +---firestore
+¦   ¦   ¦           ¦   +---functions
+¦   ¦   ¦           ¦   +---installations
+¦   ¦   ¦           ¦   +---messaging
+¦   ¦   ¦           ¦   +---performance
+¦   ¦   ¦           ¦   +---remote-config
+¦   ¦   ¦           ¦   +---storage
+¦   ¦   ¦           +---data-connect
+¦   ¦   ¦           +---database
+¦   ¦   ¦           +---esm
+¦   ¦   ¦           ¦   +---analytics
+¦   ¦   ¦           ¦   +---app
+¦   ¦   ¦           ¦   +---app-check
+¦   ¦   ¦           ¦   +---auth
+¦   ¦   ¦           ¦   ¦   +---cordova
+¦   ¦   ¦           ¦   ¦   +---web-extension
+¦   ¦   ¦           ¦   +---compat
+¦   ¦   ¦           ¦   ¦   +---analytics
+¦   ¦   ¦           ¦   ¦   +---app
+¦   ¦   ¦           ¦   ¦   +---app-check
+¦   ¦   ¦           ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   +---database
+¦   ¦   ¦           ¦   ¦   +---firestore
+¦   ¦   ¦           ¦   ¦   +---functions
+¦   ¦   ¦           ¦   ¦   +---installations
+¦   ¦   ¦           ¦   ¦   +---messaging
+¦   ¦   ¦           ¦   ¦   +---performance
+¦   ¦   ¦           ¦   ¦   +---remote-config
+¦   ¦   ¦           ¦   ¦   +---storage
+¦   ¦   ¦           ¦   +---data-connect
+¦   ¦   ¦           ¦   +---database
+¦   ¦   ¦           ¦   +---firestore
+¦   ¦   ¦           ¦   ¦   +---lite
+¦   ¦   ¦           ¦   +---functions
+¦   ¦   ¦           ¦   +---installations
+¦   ¦   ¦           ¦   +---messaging
+¦   ¦   ¦           ¦   ¦   +---sw
+¦   ¦   ¦           ¦   +---performance
+¦   ¦   ¦           ¦   +---remote-config
+¦   ¦   ¦           ¦   +---storage
+¦   ¦   ¦           ¦   +---vertexai-preview
+¦   ¦   ¦           +---firestore
+¦   ¦   ¦           ¦   +---lite
+¦   ¦   ¦           +---functions
+¦   ¦   ¦           +---installations
+¦   ¦   ¦           +---messaging
+¦   ¦   ¦           ¦   +---sw
+¦   ¦   ¦           +---performance
+¦   ¦   ¦           +---remote-config
+¦   ¦   ¦           +---storage
+¦   ¦   ¦           +---vertexai-preview
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---@firebase
+¦   ¦   ¦       +---auth
+¦   ¦   ¦           +---cordova
+¦   ¦   ¦           +---dist
+¦   ¦   ¦           ¦   +---browser-cjs
+¦   ¦   ¦           ¦   ¦   +---internal
+¦   ¦   ¦           ¦   ¦   +---scripts
+¦   ¦   ¦           ¦   ¦   +---src
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   ¦   +---test
+¦   ¦   ¦           ¦   ¦       +---helpers
+¦   ¦   ¦           ¦   ¦       ¦   +---api
+¦   ¦   ¦           ¦   ¦       ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---integration
+¦   ¦   ¦           ¦   ¦           +---flows
+¦   ¦   ¦           ¦   ¦           +---webdriver
+¦   ¦   ¦           ¦   ¦               +---compat
+¦   ¦   ¦           ¦   ¦               +---util
+¦   ¦   ¦           ¦   +---cordova
+¦   ¦   ¦           ¦   ¦   +---internal
+¦   ¦   ¦           ¦   ¦   +---scripts
+¦   ¦   ¦           ¦   ¦   +---src
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   ¦   +---test
+¦   ¦   ¦           ¦   ¦       +---helpers
+¦   ¦   ¦           ¦   ¦       ¦   +---api
+¦   ¦   ¦           ¦   ¦       ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---integration
+¦   ¦   ¦           ¦   ¦           +---flows
+¦   ¦   ¦           ¦   ¦           +---webdriver
+¦   ¦   ¦           ¦   ¦               +---compat
+¦   ¦   ¦           ¦   ¦               +---util
+¦   ¦   ¦           ¦   +---esm2017
+¦   ¦   ¦           ¦   ¦   +---internal
+¦   ¦   ¦           ¦   ¦   +---scripts
+¦   ¦   ¦           ¦   ¦   +---src
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   ¦   +---test
+¦   ¦   ¦           ¦   ¦       +---helpers
+¦   ¦   ¦           ¦   ¦       ¦   +---api
+¦   ¦   ¦           ¦   ¦       ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---integration
+¦   ¦   ¦           ¦   ¦           +---flows
+¦   ¦   ¦           ¦   ¦           +---webdriver
+¦   ¦   ¦           ¦   ¦               +---compat
+¦   ¦   ¦           ¦   ¦               +---util
+¦   ¦   ¦           ¦   +---esm5
+¦   ¦   ¦           ¦   ¦   +---internal
+¦   ¦   ¦           ¦   ¦   +---scripts
+¦   ¦   ¦           ¦   ¦   +---src
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   ¦   +---test
+¦   ¦   ¦           ¦   ¦       +---helpers
+¦   ¦   ¦           ¦   ¦       ¦   +---api
+¦   ¦   ¦           ¦   ¦       ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---integration
+¦   ¦   ¦           ¦   ¦           +---flows
+¦   ¦   ¦           ¦   ¦           +---webdriver
+¦   ¦   ¦           ¦   ¦               +---compat
+¦   ¦   ¦           ¦   ¦               +---util
+¦   ¦   ¦           ¦   +---internal
+¦   ¦   ¦           ¦   +---node
+¦   ¦   ¦           ¦   ¦   +---internal
+¦   ¦   ¦           ¦   ¦   +---scripts
+¦   ¦   ¦           ¦   ¦   +---src
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   ¦   +---test
+¦   ¦   ¦           ¦   ¦       +---helpers
+¦   ¦   ¦           ¦   ¦       ¦   +---api
+¦   ¦   ¦           ¦   ¦       ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---integration
+¦   ¦   ¦           ¦   ¦           +---flows
+¦   ¦   ¦           ¦   ¦           +---webdriver
+¦   ¦   ¦           ¦   ¦               +---compat
+¦   ¦   ¦           ¦   ¦               +---util
+¦   ¦   ¦           ¦   +---node-esm
+¦   ¦   ¦           ¦   ¦   +---internal
+¦   ¦   ¦           ¦   ¦   +---scripts
+¦   ¦   ¦           ¦   ¦   +---src
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   ¦   +---test
+¦   ¦   ¦           ¦   ¦       +---helpers
+¦   ¦   ¦           ¦   ¦       ¦   +---api
+¦   ¦   ¦           ¦   ¦       ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---integration
+¦   ¦   ¦           ¦   ¦           +---flows
+¦   ¦   ¦           ¦   ¦           +---webdriver
+¦   ¦   ¦           ¦   ¦               +---compat
+¦   ¦   ¦           ¦   ¦               +---util
+¦   ¦   ¦           ¦   +---rn
+¦   ¦   ¦           ¦   ¦   +---internal
+¦   ¦   ¦           ¦   ¦   +---scripts
+¦   ¦   ¦           ¦   ¦   +---src
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   ¦   +---test
+¦   ¦   ¦           ¦   ¦       +---helpers
+¦   ¦   ¦           ¦   ¦       ¦   +---api
+¦   ¦   ¦           ¦   ¦       ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---integration
+¦   ¦   ¦           ¦   ¦           +---flows
+¦   ¦   ¦           ¦   ¦           +---webdriver
+¦   ¦   ¦           ¦   ¦               +---compat
+¦   ¦   ¦           ¦   ¦               +---util
+¦   ¦   ¦           ¦   +---scripts
+¦   ¦   ¦           ¦   +---src
+¦   ¦   ¦           ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   +---test
+¦   ¦   ¦           ¦   ¦   +---helpers
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   +---integration
+¦   ¦   ¦           ¦   ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---flows
+¦   ¦   ¦           ¦   ¦       +---webdriver
+¦   ¦   ¦           ¦   ¦           +---compat
+¦   ¦   ¦           ¦   ¦           +---util
+¦   ¦   ¦           ¦   +---web-extension-cjs
+¦   ¦   ¦           ¦   ¦   +---internal
+¦   ¦   ¦           ¦   ¦   +---scripts
+¦   ¦   ¦           ¦   ¦   +---src
+¦   ¦   ¦           ¦   ¦   ¦   +---api
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---account_management
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---authentication
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---project_config
+¦   ¦   ¦           ¦   ¦   ¦   +---core
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---auth
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---credentials
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---user
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   +---model
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_browser
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---iframe
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---mfa
+¦   ¦   ¦           ¦   ¦   ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---persistence
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---providers
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_cordova
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦   ¦   ¦   ¦   +---strategies
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_node
+¦   ¦   ¦           ¦   ¦   ¦   +---platform_react_native
+¦   ¦   ¦           ¦   ¦   ¦       +---persistence
+¦   ¦   ¦           ¦   ¦   +---test
+¦   ¦   ¦           ¦   ¦       +---helpers
+¦   ¦   ¦           ¦   ¦       ¦   +---api
+¦   ¦   ¦           ¦   ¦       ¦   +---integration
+¦   ¦   ¦           ¦   ¦       +---integration
+¦   ¦   ¦           ¦   ¦           +---flows
+¦   ¦   ¦           ¦   ¦           +---webdriver
+¦   ¦   ¦           ¦   ¦               +---compat
+¦   ¦   ¦           ¦   ¦               +---util
+¦   ¦   ¦           ¦   +---web-extension-esm2017
+¦   ¦   ¦           ¦       +---internal
+¦   ¦   ¦           ¦       +---scripts
+¦   ¦   ¦           ¦       +---src
+¦   ¦   ¦           ¦       ¦   +---api
+¦   ¦   ¦           ¦       ¦   ¦   +---account_management
+¦   ¦   ¦           ¦       ¦   ¦   +---authentication
+¦   ¦   ¦           ¦       ¦   ¦   +---password_policy
+¦   ¦   ¦           ¦       ¦   ¦   +---project_config
+¦   ¦   ¦           ¦       ¦   +---core
+¦   ¦   ¦           ¦       ¦   ¦   +---auth
+¦   ¦   ¦           ¦       ¦   ¦   +---credentials
+¦   ¦   ¦           ¦       ¦   ¦   +---persistence
+¦   ¦   ¦           ¦       ¦   ¦   +---providers
+¦   ¦   ¦           ¦       ¦   ¦   +---strategies
+¦   ¦   ¦           ¦       ¦   ¦   +---user
+¦   ¦   ¦           ¦       ¦   ¦   +---util
+¦   ¦   ¦           ¦       ¦   +---mfa
+¦   ¦   ¦           ¦       ¦   ¦   +---assertions
+¦   ¦   ¦           ¦       ¦   +---model
+¦   ¦   ¦           ¦       ¦   +---platform_browser
+¦   ¦   ¦           ¦       ¦   ¦   +---iframe
+¦   ¦   ¦           ¦       ¦   ¦   +---messagechannel
+¦   ¦   ¦           ¦       ¦   ¦   +---mfa
+¦   ¦   ¦           ¦       ¦   ¦   ¦   +---assertions
+¦   ¦   ¦           ¦       ¦   ¦   +---persistence
+¦   ¦   ¦           ¦       ¦   ¦   +---providers
+¦   ¦   ¦           ¦       ¦   ¦   +---recaptcha
+¦   ¦   ¦           ¦       ¦   ¦   +---strategies
+¦   ¦   ¦           ¦       ¦   ¦   +---util
+¦   ¦   ¦           ¦       ¦   +---platform_cordova
+¦   ¦   ¦           ¦       ¦   ¦   +---popup_redirect
+¦   ¦   ¦           ¦       ¦   ¦   +---strategies
+¦   ¦   ¦           ¦       ¦   +---platform_node
+¦   ¦   ¦           ¦       ¦   +---platform_react_native
+¦   ¦   ¦           ¦       ¦       +---persistence
+¦   ¦   ¦           ¦       +---test
+¦   ¦   ¦           ¦           +---helpers
+¦   ¦   ¦           ¦           ¦   +---api
+¦   ¦   ¦           ¦           ¦   +---integration
+¦   ¦   ¦           ¦           +---integration
+¦   ¦   ¦           ¦               +---flows
+¦   ¦   ¦           ¦               +---webdriver
+¦   ¦   ¦           ¦                   +---compat
+¦   ¦   ¦           ¦                   +---util
+¦   ¦   ¦           +---internal
+¦   ¦   ¦           +---web-extension
+¦   ¦   +---performance
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---remote-config
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---storage
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---analytics
+¦   ¦   ¦       +---app
+¦   ¦   ¦       +---app-check
+¦   ¦   ¦       +---auth
+¦   ¦   ¦       ¦   +---cordova
+¦   ¦   ¦       ¦   +---web-extension
+¦   ¦   ¦       +---compat
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       +---data-connect
+¦   ¦   ¦       +---database
+¦   ¦   ¦       +---esm
+¦   ¦   ¦       ¦   +---analytics
+¦   ¦   ¦       ¦   +---app
+¦   ¦   ¦       ¦   +---app-check
+¦   ¦   ¦       ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---cordova
+¦   ¦   ¦       ¦   ¦   +---web-extension
+¦   ¦   ¦       ¦   +---compat
+¦   ¦   ¦       ¦   ¦   +---analytics
+¦   ¦   ¦       ¦   ¦   +---app
+¦   ¦   ¦       ¦   ¦   +---app-check
+¦   ¦   ¦       ¦   ¦   +---auth
+¦   ¦   ¦       ¦   ¦   +---database
+¦   ¦   ¦       ¦   ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---functions
+¦   ¦   ¦       ¦   ¦   +---installations
+¦   ¦   ¦       ¦   ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---performance
+¦   ¦   ¦       ¦   ¦   +---remote-config
+¦   ¦   ¦       ¦   ¦   +---storage
+¦   ¦   ¦       ¦   +---data-connect
+¦   ¦   ¦       ¦   +---database
+¦   ¦   ¦       ¦   +---firestore
+¦   ¦   ¦       ¦   ¦   +---lite
+¦   ¦   ¦       ¦   +---functions
+¦   ¦   ¦       ¦   +---installations
+¦   ¦   ¦       ¦   +---messaging
+¦   ¦   ¦       ¦   ¦   +---sw
+¦   ¦   ¦       ¦   +---performance
+¦   ¦   ¦       ¦   +---remote-config
+¦   ¦   ¦       ¦   +---storage
+¦   ¦   ¦       ¦   +---vertexai-preview
+¦   ¦   ¦       +---firestore
+¦   ¦   ¦       ¦   +---lite
+¦   ¦   ¦       +---functions
+¦   ¦   ¦       +---installations
+¦   ¦   ¦       +---messaging
+¦   ¦   ¦       ¦   +---sw
+¦   ¦   ¦       +---performance
+¦   ¦   ¦       +---remote-config
+¦   ¦   ¦       +---storage
+¦   ¦   ¦       +---vertexai-preview
+¦   ¦   +---vertexai-preview
+¦   ¦       +---dist
+¦   ¦           +---analytics
+¦   ¦           +---app
+¦   ¦           +---app-check
+¦   ¦           +---auth
+¦   ¦           ¦   +---cordova
+¦   ¦           ¦   +---web-extension
+¦   ¦           +---compat
+¦   ¦           ¦   +---analytics
+¦   ¦           ¦   +---app
+¦   ¦           ¦   +---app-check
+¦   ¦           ¦   +---auth
+¦   ¦           ¦   +---database
+¦   ¦           ¦   +---firestore
+¦   ¦           ¦   +---functions
+¦   ¦           ¦   +---installations
+¦   ¦           ¦   +---messaging
+¦   ¦           ¦   +---performance
+¦   ¦           ¦   +---remote-config
+¦   ¦           ¦   +---storage
+¦   ¦           +---data-connect
+¦   ¦           +---database
+¦   ¦           +---esm
+¦   ¦           ¦   +---analytics
+¦   ¦           ¦   +---app
+¦   ¦           ¦   +---app-check
+¦   ¦           ¦   +---auth
+¦   ¦           ¦   ¦   +---cordova
+¦   ¦           ¦   ¦   +---web-extension
+¦   ¦           ¦   +---compat
+¦   ¦           ¦   ¦   +---analytics
+¦   ¦           ¦   ¦   +---app
+¦   ¦           ¦   ¦   +---app-check
+¦   ¦           ¦   ¦   +---auth
+¦   ¦           ¦   ¦   +---database
+¦   ¦           ¦   ¦   +---firestore
+¦   ¦           ¦   ¦   +---functions
+¦   ¦           ¦   ¦   +---installations
+¦   ¦           ¦   ¦   +---messaging
+¦   ¦           ¦   ¦   +---performance
+¦   ¦           ¦   ¦   +---remote-config
+¦   ¦           ¦   ¦   +---storage
+¦   ¦           ¦   +---data-connect
+¦   ¦           ¦   +---database
+¦   ¦           ¦   +---firestore
+¦   ¦           ¦   ¦   +---lite
+¦   ¦           ¦   +---functions
+¦   ¦           ¦   +---installations
+¦   ¦           ¦   +---messaging
+¦   ¦           ¦   ¦   +---sw
+¦   ¦           ¦   +---performance
+¦   ¦           ¦   +---remote-config
+¦   ¦           ¦   +---storage
+¦   ¦           ¦   +---vertexai-preview
+¦   ¦           +---firestore
+¦   ¦           ¦   +---lite
+¦   ¦           +---functions
+¦   ¦           +---installations
+¦   ¦           +---messaging
+¦   ¦           ¦   +---sw
+¦   ¦           +---performance
+¦   ¦           +---remote-config
+¦   ¦           +---storage
+¦   ¦           +---vertexai-preview
+¦   +---gensync
+¦   ¦   +---test
+¦   +---get-caller-file
+¦   +---http-parser-js
+¦   +---idb
+¦   ¦   +---build
+¦   +---is-fullwidth-code-point
+¦   +---js-tokens
+¦   +---jsesc
+¦   ¦   +---bin
+¦   ¦   +---man
+¦   +---json5
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   +---lodash.camelcase
+¦   +---long
+¦   ¦   +---umd
+¦   +---loose-envify
+¦   +---lru-cache
+¦   +---marked
+¦   ¦   +---bin
+¦   ¦   +---lib
+¦   ¦   +---man
+¦   ¦   +---src
+¦   +---ms
+¦   +---nanoid
+¦   ¦   +---async
+¦   ¦   +---bin
+¦   ¦   +---non-secure
+¦   ¦   +---url-alphabet
+¦   +---node-releases
+¦   ¦   +---data
+¦   ¦       +---processed
+¦   ¦       +---release-schedule
+¦   +---picocolors
+¦   +---postcss
+¦   ¦   +---lib
+¦   +---protobufjs
+¦   ¦   +---dist
+¦   ¦   ¦   +---light
+¦   ¦   ¦   +---minimal
+¦   ¦   +---ext
+¦   ¦   ¦   +---debug
+¦   ¦   ¦   +---descriptor
+¦   ¦   +---google
+¦   ¦   ¦   +---api
+¦   ¦   ¦   +---protobuf
+¦   ¦   +---scripts
+¦   ¦   +---src
+¦   ¦       +---rpc
+¦   ¦       +---util
+¦   +---react
+¦   ¦   +---cjs
+¦   ¦   +---umd
+¦   +---react-dom
+¦   ¦   +---cjs
+¦   ¦   +---umd
+¦   +---react-refresh
+¦   ¦   +---cjs
+¦   +---react-router
+¦   ¦   +---dist
+¦   ¦       +---lib
+¦   ¦       +---umd
+¦   +---react-router-dom
+¦   ¦   +---dist
+¦   ¦       +---umd
+¦   +---require-directory
+¦   +---rollup
+¦   ¦   +---dist
+¦   ¦       +---bin
+¦   ¦       +---es
+¦   ¦       ¦   +---shared
+¦   ¦       +---shared
+¦   +---safe-buffer
+¦   +---scheduler
+¦   ¦   +---cjs
+¦   ¦   +---umd
+¦   +---semver
+¦   ¦   +---bin
+¦   +---source-map-js
+¦   ¦   +---lib
+¦   +---string-width
+¦   +---strip-ansi
+¦   +---tslib
+¦   ¦   +---modules
+¦   +---undici
+¦   ¦   +---docs
+¦   ¦   ¦   +---docs
+¦   ¦   ¦       +---api
+¦   ¦   ¦       +---best-practices
+¦   ¦   +---lib
+¦   ¦   ¦   +---api
+¦   ¦   ¦   +---core
+¦   ¦   ¦   +---dispatcher
+¦   ¦   ¦   +---handler
+¦   ¦   ¦   +---interceptor
+¦   ¦   ¦   +---llhttp
+¦   ¦   ¦   +---mock
+¦   ¦   ¦   +---util
+¦   ¦   ¦   +---web
+¦   ¦   ¦       +---cache
+¦   ¦   ¦       +---cookies
+¦   ¦   ¦       +---eventsource
+¦   ¦   ¦       +---fetch
+¦   ¦   ¦       +---fileapi
+¦   ¦   ¦       +---websocket
+¦   ¦   +---scripts
+¦   ¦   +---types
+¦   +---undici-types
+¦   +---update-browserslist-db
+¦   +---vite
+¦   ¦   +---bin
+¦   ¦   +---dist
+¦   ¦   ¦   +---client
+¦   ¦   ¦   +---node
+¦   ¦   ¦   ¦   +---chunks
+¦   ¦   ¦   +---node-cjs
+¦   ¦   +---types
+¦   +---websocket-driver
+¦   ¦   +---lib
+¦   ¦       +---websocket
+¦   ¦           +---driver
+¦   ¦               +---hybi
+¦   +---websocket-extensions
+¦   ¦   +---lib
+¦   ¦       +---pipeline
+¦   +---wrap-ansi
+¦   +---y18n
+¦   ¦   +---build
+¦   ¦       +---lib
+¦   ¦           +---platform-shims
+¦   +---yallist
+¦   +---yargs
+¦   ¦   +---build
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---typings
+¦   ¦   ¦       +---utils
+¦   ¦   +---helpers
+¦   ¦   +---lib
+¦   ¦   ¦   +---platform-shims
+¦   ¦   +---locales
+¦   +---yargs-parser
+¦       +---build
+¦           +---lib
++---public
++---src
+    +---assets
+    +---components
+    +---data
+    +---pages
