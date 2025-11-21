@@ -14,7 +14,8 @@ export async function onRequestPost(context) {
         messages: [
           {
             role: "system",
-            content: "Translate all texts to English. Return the result as a JSON array, same order."
+            content:
+              "Translate each string to English. Return ONLY a valid JSON array, no explanations, no code block. Example output: [\"Hello\", \"World\"]"
           },
           {
             role: "user",
@@ -25,7 +26,14 @@ export async function onRequestPost(context) {
     });
 
     const data = await response.json();
-    const translatedTexts = JSON.parse(data.choices[0].message.content);
+
+    let raw = data.choices?.[0]?.message?.content || "";
+
+    // 🛠️ Ha a modell code blockot tett köré → távolítsuk el
+    raw = raw.replace(/```json|```/g, "").trim();
+
+    // 🛠️ Biztonságos parse
+    const translatedTexts = JSON.parse(raw);
 
     return new Response(JSON.stringify({ translatedTexts }), {
       headers: { "Content-Type": "application/json" }
