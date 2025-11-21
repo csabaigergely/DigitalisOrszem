@@ -325,3 +325,53 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 * {
     border-radius: 0 !important;
 }
+
+/* src/components/LoginModal.css */
+
+.login-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.5);
+  z-index: 20000;
+}
+
+.login-modal {
+  background: var(--panel);
+  padding: 20px;
+  border-radius: 0;
+  width: 360px;
+  color: var(--text);
+}
+
+.login-modal label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.login-modal input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px;
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.login-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.switch-button {
+  margin-left: auto;
+  background: transparent;
+}
+
+.error {
+  color: salmon;
+  margin-top: 10px;
+}

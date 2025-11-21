@@ -1,42 +1,36 @@
 ﻿import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SaveButton from "../components/SaveButton";
 
-export default function TopicCard({ topic, user }) {
-    const navigate = useNavigate();
-
+export default function TopicCard({ topic, user, translations }) {
     const createdDate = topic.createdAt
         ? new Date(topic.createdAt.seconds * 1000).toLocaleDateString("hu-HU")
         : null;
 
     return (
-        <div 
-            className="topic-card"
-            onClick={() => navigate(`/topic/${topic.slug}`)}
-            style={{ cursor: "pointer" }}
-        >
-            <div className="topic-card-top">
+        <Link to={`/topic/${topic.slug}`} className="topic-card-link">
+            <article className="topic-card">
 
-                {/* Cím – NINCS többé Link! */}
-                <h3 className="topic-title">{topic.title}</h3>
+                <div className="topic-card-top">
+                    <h3>{topic.title}</h3>
 
-                {/* Save: NEM navigál → stopPropagation() */}
-                <div
-                    className="save-container"
-                    onClick={(e) => e.stopPropagation()}
-                >
-                    <SaveButton user={user} topic={topic} />
+                    <div className="save-container">
+                        <SaveButton 
+                            user={user} 
+                            topic={topic}
+                            translations={translations}
+                        />
+                    </div>
                 </div>
 
-            </div>
+                <p className="muted">{topic.intro}</p>
 
-            <p className="muted">{topic.intro}</p>
-
-            {createdDate && (
-                <div className="topic-card-date-bottom">
-                    {createdDate}
-                </div>
-            )}
-        </div>
+                {createdDate && (
+                    <div className="topic-card-date-bottom">
+                        {createdDate}
+                    </div>
+                )}
+            </article>
+        </Link>
     );
 }

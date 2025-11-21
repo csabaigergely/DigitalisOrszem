@@ -5,9 +5,9 @@ import { db } from "../firebase";
 import { marked } from "marked";
 import TwoColumn from "../components/TwoColumnSection";
 import Comments from "../components/Comments";
-import SaveButton from "../components/SaveButton";   // <-- EZ HÍÁNYZOTT
+import SaveButton from "../components/SaveButton";
 
-export default function TopicPage({ user }) {
+export default function TopicPage({ user, translations }) {
     const { slug } = useParams();
     const [topic, setTopic] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -21,8 +21,8 @@ export default function TopicPage({ user }) {
         load();
     }, [slug]);
 
-    if (loading) return <p>Keresés...</p>;
-    if (!topic) return <p>Nem található</p>;
+    if (loading) return <p>{translations.loading || "Keresés..."}</p>;
+    if (!topic) return <p>{translations.notFound || "Nem található"}</p>;
 
     const intro = marked.parse(topic.intro || "");
     const left = marked.parse(topic.itAnalysis || "");
@@ -30,15 +30,15 @@ export default function TopicPage({ user }) {
 
     return (
         <article className="topic-page">
-            <h1 className="topic-title">{topic.title}</h1>
-            <div className="topic-intro" dangerouslySetInnerHTML={{ __html: intro }} />
+            <h1 className="topic-title-for-page">{topic.title}</h1>
+            <div className="topic-intro-for-page" dangerouslySetInnerHTML={{ __html: intro }} />
             <TwoColumn leftHtml={left} rightHtml={right} />
 
             <div style={{ marginTop: 40, marginBottom: 40 }}>
-                <SaveButton user={user} topic={topic} />
+                <SaveButton user={user} topic={topic} translations={translations} />
             </div>
 
-            <Comments slug={slug} user={user} />
+            <Comments slug={slug} user={user} translations={translations} />
         </article>
     );
 }

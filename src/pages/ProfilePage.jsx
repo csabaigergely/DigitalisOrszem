@@ -3,11 +3,11 @@ import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { Link } from "react-router-dom";
 
-export default function ProfilePage({ user }) {
+export default function ProfilePage({ user, translations }) {
     const [saved, setSaved] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    if (!user) return <p>Be kell jelentkezned...</p>;
+    if (!user) return <p>{translations.mustLogin || "Be kell jelentkezned..."}</p>;
 
     useEffect(() => {
         async function load() {
@@ -21,17 +21,20 @@ export default function ProfilePage({ user }) {
 
     return (
         <div className="container">
-            <h1>Profil</h1>
-            <p>Email: {user.email}</p>
-            <p>Üdv újra!</p>
+            <h1>{translations.profile || "Profil"}</h1>
+            <p>{translations.email || "Email"}: {user.email}</p>
+            <p>{translations.welcomeBack || "Üdv újra!"}</p>
 
-            <h2 style={{ marginTop: 30 }}>Elmentett témák</h2>
+            <h2 style={{ marginTop: 30 }}>
+                {translations.savedTopics || "Elmentett témák"}
+            </h2>
 
             {loading ? (
-                <p>Betöltés...</p>
+                <p>{translations.loading || "Betöltés..."}</p>
             ) : saved.length === 0 ? (
                 <p style={{ marginTop: 20, fontStyle: "italic", color: "var(--muted)" }}>
-                    Jelenleg nincs elmentett témád. Fedezd fel tartalmainkat, és mentsd el a számodra értékes bejegyzéseket.
+                    {translations.noSavedTopics ||
+                        "Jelenleg nincs elmentett témád. Fedezd fel tartalmainkat..."}
                 </p>
             ) : (
                 <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 10 }}>

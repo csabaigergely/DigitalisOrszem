@@ -1,9 +1,10 @@
 // src/components/LoginModal.jsx
 import React, { useState } from "react";
 import { registerWithEmail, loginWithEmail } from "../firebase";
+import "./LoginModal.css";
 
 export default function LoginModal({ visible, onClose }) {
-  const [mode, setMode] = useState("login"); // 'login' vagy 'register'
+  const [mode, setMode] = useState("login"); 
   const [email, setEmail] = useState("");
   const [displayName, setDisplayName] = useState("");
   const [password, setPassword] = useState("");
@@ -14,6 +15,7 @@ export default function LoginModal({ visible, onClose }) {
   async function handleSubmit(e) {
     e.preventDefault();
     setMsg("");
+
     try {
       if (mode === "register") {
         await registerWithEmail(displayName, email, password);
@@ -27,43 +29,56 @@ export default function LoginModal({ visible, onClose }) {
   }
 
   return (
-    <div style={{
-      position: "fixed", inset: 0, display: "flex", alignItems: "center", justifyContent: "center",
-      background: "rgba(0,0,0,0.5)", zIndex: 20000
-    }}>
-      <form onSubmit={handleSubmit} style={{
-        background: "var(--panel)", padding: 20, borderRadius: 0, width: 360, color: "var(--text)"
-      }}>
-        <h3 style={{ marginTop: 0 }}>{mode === "login" ? "Bejelentkezés" : "Regisztráció"}</h3>
+    <div className="login-overlay">
+      <form className="login-modal" onSubmit={handleSubmit}>
+        <h3>{mode === "login" ? "Bejelentkezés" : "Regisztráció"}</h3>
 
         {mode === "register" && (
-          <label style={{ display: "block", marginBottom: 8 }}>
+          <label>
             Felhasználónév
-            <input required value={displayName} onChange={e => setDisplayName(e.target.value)} style={{ width: "100%", marginTop:6 }} />
+            <input
+              required
+              value={displayName}
+              onChange={e => setDisplayName(e.target.value)}
+            />
           </label>
         )}
 
-        <label style={{ display: "block", marginBottom: 8 }}>
+        <label>
           Email
-          <input required type="email" value={email} onChange={e => setEmail(e.target.value)} style={{ width: "100%", marginTop:6 }} />
+          <input
+            required
+            type="email"
+            value={email}
+            onChange={e => setEmail(e.target.value)}
+          />
         </label>
 
-        <label style={{ display: "block", marginBottom: 8 }}>
+        <label>
           Jelszó
-          <input required type="password" value={password} onChange={e => setPassword(e.target.value)} style={{ width: "100%", marginTop:6 }} />
+          <input
+            required
+            type="password"
+            value={password}
+            onChange={e => setPassword(e.target.value)}
+          />
         </label>
 
-        <div style={{ display: "flex", gap: 8, marginTop: 12 }}>
-          <button type="submit" style={{ padding: "8px 12px" }}>
+        <div className="login-buttons">
+          <button type="submit">
             {mode === "login" ? "Bejelentkezés" : "Regisztráció"}
           </button>
-          <button type="button" onClick={onClose} style={{ padding: "8px 12px" }}>Mégse</button>
-          <button type="button" onClick={() => setMode(m => m === "login" ? "register" : "login")} style={{ marginLeft: "auto", background: "transparent" }}>
+          <button type="button" onClick={onClose}>Mégse</button>
+          <button
+            type="button"
+            className="switch-button"
+            onClick={() => setMode(m => (m === "login" ? "register" : "login"))}
+          >
             {mode === "login" ? "Regisztrálok" : "Van már fiókom"}
           </button>
         </div>
 
-        {msg && <p style={{ color: "salmon", marginTop: 8 }}>{msg}</p>}
+        {msg && <p className="error">{msg}</p>}
       </form>
     </div>
   );

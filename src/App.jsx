@@ -14,8 +14,37 @@ export default function App() {
   const [user, setUser] = useState(null);
   const [authReady, setAuthReady] = useState(false);
 
+  // 🔥 NYELV ÉS FORDÍTÁSOK
+  const [language, setLanguage] = useState("hu");
+  const [translations, setTranslations] = useState({});
+
   useEffect(() => {
-    // figyeljük a bejelentkezés állapotát
+    const savedLang = localStorage.getItem("language");
+    if (savedLang) setLanguage(savedLang);
+
+    const savedTranslations = localStorage.getItem("translations");
+    if (savedTranslations) setTranslations(JSON.parse(savedTranslations));
+  }, []);
+
+  // 🔥 AI-fordítás hívása
+  const translateUI = async () => {
+    const response = await fetch("/translate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ translations }),
+    });
+
+    const data = await response.json();
+
+    setTranslations(data);
+    setLanguage("en");
+
+    localStorage.setItem("language", "en");
+    localStorage.setItem("translations", JSON.stringify(data));
+  };
+
+  // 🔥 Firebase auth figyelése
+  useEffect(() => {
     const unsub = onAuthStateChanged(auth, (u) => {
       setUser(u);
       setAuthReady(true);
@@ -23,11 +52,18 @@ export default function App() {
     return () => unsub();
   }, []);
 
-  if (!authReady) return null; // vagy egy loading spinner
+  if (!authReady) return null;
 
   return (
     <div className="app-root">
-      <Header search={search} setSearch={setSearch} user={user} />
+      <Header
+        search={search}
+        setSearch={setSearch}
+        user={user}
+        language={language}
+        translateUI={translateUI}
+        translations={translations}
+      />
 
       <main className="container">
         <Routes>
@@ -35,11 +71,18 @@ export default function App() {
           <Route path="/topic/:slug" element={<TopicPage user={user} />} />
           <Route path="/admin" element={<Admin user={user} />} />
           <Route path="/profile" element={<ProfilePage user={user} />} />
+          <Route path="/" element={<Home search={search} user={user} translations={translations} />} />
+          <Route path="/topic/:slug" element={<TopicPage user={user} translations={translations} />} />
+          <Route path="/admin" element={<Admin translations={translations} />} />
+          <Route path="/profile" element={<ProfilePage user={user} translations={translations} />} />
         </Routes>
       </main>
 
       <footer className="site-footer">
-        <p>© {new Date().getFullYear()} Digitális Őrszem</p>
+        <p>
+          © {new Date().getFullYear()}{" "}
+          {translations.footerTitle || "Digitális Őrszem"}
+        </p>
       </footer>
     </div>
   );

@@ -1,68 +1,62 @@
-// src/components/Comments.jsx
 import React, { useEffect, useState } from "react";
-import { collection, addDoc, query, orderBy, onSnapshot, serverTimestamp } from "firebase/firestore";
+import { collection, addDoc, getDocs, orderBy, query } from "firebase/firestore";
 import { db } from "../firebase";
 
-export default function Comments({ slug, user }) {
-  const [comments, setComments] = useState([]);
-  const [text, setText] = useState("");
+export default function Comments({ slug, user, translations }) {
+    const [text, setText] = useState("");
+    const [comments, setComments] = useState([]);
 
-  useEffect(() => {
-    const q = query(collection(db, `topics/${slug}/comments`), orderBy("createdAt", "asc"));
-    const unsub = onSnapshot(q, (snap) => {
-      setComments(snap.docs.map(d => ({ id: d.id, ...d.data() })));
-    });
-    return () => unsub();
-  }, [slug]);
+    useEffect(() => {
+        async function load() {
+            const q = query(
+                collection(db, `topics/${slug}/comments`),
+                orderBy("createdAt", "desc")
+            );
+            const snap = await getDocs(q);
+            setComments(snap.docs.map(d => ({ id: d.id, ...d.data() })));
+        }
+        load();
+    }, [slug]);
 
-  async function postComment(e) {
-    e.preventDefault();
-    if (!user) return alert("Jelentkezz be a kommenteléshez.");
-    if (!text.trim()) return;
-    await addDoc(collection(db, `topics/${slug}/comments`), {
-      text: text.trim(),
-      authorUID: user.uid,
-      authorName: user.displayName || user.email,
-      createdAt: serverTimestamp()
-    });
-    setText("");
-  }
+    async function send() {
+        if (!user) {
+            alert(translations.mustLogin || "Be kell jelentkezned.");
+            return;
+        }
+        if (!text.trim()) return;
 
-  return (
-    <div style={{ marginTop: 32 }}>
-      <h3>Kommentek</h3>
+        await addDoc(collection(db, `topics/${slug}/comments`), {
+            text,
+            user: user.email,
+            createdAt: new Date()
+        });
 
-      <form onSubmit={postComment} className="comment-form">
-        <textarea
-          value={text}
-          onChange={e => setText(e.target.value)}
-          rows={3}
-          className="comment-textarea"
-          placeholder={user ? "Írj üzenetet..." : "Jelentkezz be a kommenteléshez"}
-        />
+        setText("");
+    }
 
-        <div className="comment-button-wrap">
-          <button
-            type="submit"
-            disabled={!user || !text.trim()}
-            className="comment-submit-button"
-          >
-            Küldés
-          </button>
-        </div>
-      </form>
+    return (
+        <div className="comments-block">
+            <h3>{translations.comments || "Hozzászólások"}</h3>
 
-      <div>
-        {comments.map(c => (
-          <div key={c.id} style={{ padding: 10, background: "var(--panel)", marginBottom: 8, borderRadius: 0}}>
-            <div style={{ fontSize: ".95rem", color: "var(--muted)" }}>
-              {c.authorName} • {c.createdAt?.seconds ? new Date(c.createdAt.seconds * 1000).toLocaleString("hu-HU") : ""}
+            <textarea
+                className="comment-box"
+                placeholder={translations.writeComment || "Írj egy hozzászólást..."}
+                value={text}
+                onChange={(e) => setText(e.target.value)}
+            />
+
+            <button onClick={send} style={{ marginTop: 10 }}>
+                {translations.sendComment || "Küldés"}
+            </button>
+
+            <div className="comment-list">
+                {comments.map(c => (
+                    <div key={c.id} className="comment-item">
+                        <p className="comment-user">{c.user}</p>
+                        <p>{c.text}</p>
+                    </div>
+                ))}
             </div>
-            <div style={{ marginTop: 6 }}>{c.text}</div>
-          </div>
-        ))}
-      </div>
-
-    </div>
-  );
+        </div>
+    );
 }

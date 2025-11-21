@@ -1,11 +1,9 @@
-// src/components/SaveButton.jsx
 import React, { useState, useEffect } from "react";
 import { doc, setDoc, deleteDoc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
 
-export default function SaveButton({ user, topic }) {
+export default function SaveButton({ user, topic, translations }) {
   const [saved, setSaved] = useState(false);
-  const [hover, setHover] = useState(false);
 
   useEffect(() => {
     if (!user) { setSaved(false); return; }
@@ -18,8 +16,12 @@ export default function SaveButton({ user, topic }) {
     return () => { mounted = false; };
   }, [user, topic.slug]);
 
-  async function toggleSave() {
-    if (!user) return alert("Jelentkezz be a mentéshez.");
+  async function toggleSave(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (!user) return alert(translations.mustLogin || "Jelentkezz be a mentéshez.");
+
     const ref = doc(db, `users/${user.uid}/saved`, topic.slug);
     if (!saved) {
       await setDoc(ref, {
@@ -34,34 +36,26 @@ export default function SaveButton({ user, topic }) {
     }
   }
 
-  const baseBorder = "1px solid rgba(255,255,255,0.18)";
-  const hoverBorder = "1px solid var(--accent)";
-  const savedBackground = "rgba(201,184,154,0.15)"; // finom bézs árnyalat
-  const hoverBackground = !saved ? "rgba(255,255,255,0.06)" : "rgba(201,184,154,0.20)";
-
   return (
     <button
       onClick={toggleSave}
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
       style={{
         padding: "6px 12px",
-        borderRadius: 0,
-        border: hover ? hoverBorder : baseBorder,
+        fontSize: "0.85rem",
+        borderRadius: 8,
+        border: "1px solid rgba(255,255,255,0.18)",
         background: saved
-          ? savedBackground
-          : hover
-          ? hoverBackground
-          : "transparent",
-        color: saved ? "var(--accent)" : "var(--text)",
-        fontFamily: "'Playfair Display', serif",
-        fontSize: "0.95rem",
+          ? "rgba(201,184,154,0.16)"
+          : "rgba(255,255,255,0.05)",
+        color: "var(--text)",
         cursor: "pointer",
-        transition: "all 0.25s ease",
-        backdropFilter: "blur(4px)"
+        transition: "all .25s ease",
+        fontFamily: "'Playfair Display', serif",
       }}
     >
-      {saved ? "Mentve" : "Mentés a profilra"}
+      {saved
+        ? (translations.saved || "Mentve")
+        : (translations.saveToProfile || "Mentés a profilra")}
     </button>
   );
 }
