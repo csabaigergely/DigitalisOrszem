@@ -38,30 +38,45 @@ export default function App() {
     else setTranslations(baseHu); // első betöltéskor használja a magyar alapot
   }, []);
 
+function extractTextNodes(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+  const nodes = [];
+  while (walker.nextNode()) {
+    const n = walker.currentNode;
+    const trimmed = n.nodeValue.trim();
+    if (trimmed.length > 0) {
+      nodes.push({ node: n, text: trimmed });
+    }
+  }
+  return nodes;
+}
+
+
   // 🔥 AI-fordítás hívása (JAVÍTVA — most működni fog)
   const translateUI = async () => {
-    try {
-      const response = await fetch("/translate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          text: JSON.stringify(baseHu)
-        })
-      });
+  const textNodes = extractTextNodes(document.body);
 
-      const data = await response.json();
+  const texts = textNodes.map(t => t.text);
 
-      const translated = JSON.parse(data.translatedText);
+  const response = await fetch("/translate", {
+    method: "POST",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({ texts })
+  });
 
-      setTranslations(translated);
-      setLanguage("en");
+  const data = await response.json();
 
-      localStorage.setItem("language", "en");
-      localStorage.setItem("translations", JSON.stringify(translated));
-    } catch (err) {
-      console.error("Translation error:", err);
-    }
-  };
+  if (!data.translatedTexts) {
+    console.error("Translation error:", data);
+    return;
+  }
+
+  // Írd vissza a DOM-ba
+  textNodes.forEach((item, i) => {
+    item.node.nodeValue = data.translatedTexts[i];
+  });
+};
+
 
   // 🔥 Firebase auth figyelése
   useEffect(() => {
