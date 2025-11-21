@@ -36,14 +36,12 @@ export default function ProfilePage({ user }) {
             ) : (
                 <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 10 }}>
                     {saved.map(item => (
-                        <Link key={item.slug} to={`/topic/${item.slug}`} style={{
-                            padding: 14,
-                            borderRadius: 0,
-                            background: "var(--panel)",
-                            textDecoration: "none",
-                            color: "var(--text)",
-                            display: "block"
-                        }}>
+                        <Link
+                            key={item.slug}
+                            to={`/topic/${item.slug}`}
+                            className="topic-card"
+                            style={{ padding: "14px", borderRadius: 10, textDecoration: "none", color: "var(--text)", display: "block" }}
+                        >
                             {item.title}
                         </Link>
                     ))}

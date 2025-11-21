@@ -45,9 +45,11 @@ export default function Comments({ slug, user, translations }) {
                 onChange={(e) => setText(e.target.value)}
             />
 
-            <button onClick={send} style={{ marginTop: 10 }}>
-                {translations.sendComment || "Küldés"}
-            </button>
+           <div className="comment-button-wrap">
+                <button className="comment-submit-button" onClick={send}>
+                    {translations.sendComment || "Küldés"}
+                </button>
+            </div>
 
             <div className="comment-list">
                 {comments.map(c => (

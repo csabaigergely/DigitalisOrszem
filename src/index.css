@@ -396,6 +396,50 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 .profile-button:hover {
     border-color: var(--accent);
     color: var(--accent);
-    box-shadow: 0 0 14px rgba(201,184,154,0.4); /* optional subtle glow */
-    background: rgba(201,184,154,0.05);
+}
+
+/* Full-width textarea */
+.comment-box {
+    width: 100%;
+    padding: 14px;
+    background: #131313;
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 1.15rem;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+/* Elegant old-money submit button */
+.comment-submit-button {
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+    border: 1px solid rgba(191, 174, 146, 0.35);
+    color: var(--text);
+    padding: 6px 18px;
+    border-radius: 12px;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-family: 'Playfair Display', serif;
+}
+
+.comment-submit-button:hover:not(:disabled) {
+    background: #2f2a22;
+    border-color: var(--accent);
+    box-shadow: 0 0 18px rgba(201, 184, 154, 0.2);
+}
+
+.comment-submit-button:disabled {
+    opacity: 0.35;
+    cursor: default;
+}
+
+/* Optional: wrap textarea + button nicely */
+.comments-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
