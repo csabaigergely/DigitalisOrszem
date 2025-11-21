@@ -1,68 +1,64 @@
+// src/components/TranslateButton.jsx
 import React, { useState } from "react";
 
-const translateMap = new WeakMap();
+export default function TranslateButton({ language, setLanguage }) {
+  const [loading, setLoading] = useState(false);
 
-export default function TranslateButton() {
-  const [lang, setLang] = useState("hu");
+  const toggleLanguage = async () => {
+    const newLang = language === "hu" ? "en" : "hu";
+    setLanguage(newLang);
 
-  const extractTextNodes = (root) => {
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
-    const nodes = [];
-    while (walker.nextNode()) {
-      const n = walker.currentNode;
-      const trimmed = n.nodeValue.trim();
-      if (trimmed.length > 0) nodes.push(n);
-    }
-    return nodes;
-  };
+    // Find all text nodes and translate them
+    if (newLang === "en") {
+      setLoading(true);
+      const nodes = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_TEXT,
+        null,
+        false
+      );
 
-  const translatePage = async () => {
-    const textNodes = extractTextNodes(document.body);
-    if (!textNodes.length) return;
-
-    if (lang === "hu") {
-      // Save original texts
-      textNodes.forEach(n => translateMap.set(n, n.nodeValue));
-
-      const texts = textNodes.map(n => n.nodeValue);
-
-      try {
-        const res = await fetch("https://libretranslate.de/translate", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            q: texts,
-            source: "hu",
-            target: "en",
-            format: "text"
-          })
-        });
-
-        const data = await res.json();
-        const translations = data.translatedText || data; // handle array response
-
-        textNodes.forEach((n, i) => {
-          n.nodeValue = translations[i] || n.nodeValue;
-        });
-
-        setLang("en");
-
-      } catch (err) {
-        console.error("Translation failed", err);
+      const textNodes = [];
+      while (nodes.nextNode()) {
+        const n = nodes.currentNode;
+        if (n.nodeValue.trim().length > 0) textNodes.push(n);
       }
 
+      for (let node of textNodes) {
+        try {
+          const res = await fetch("/.netlify/functions/translate", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              q: node.nodeValue,
+              source: "hu",
+              target: "en",
+            }),
+          });
+          const data = await res.json();
+          node.nodeValue = data.translatedText || node.nodeValue;
+        } catch (err) {
+          console.error("Translation failed", err);
+        }
+      }
+      setLoading(false);
     } else {
-      // Restore original Hungarian
-      textNodes.forEach(n => {
-        if (translateMap.has(n)) n.nodeValue = translateMap.get(n);
-      });
-      setLang("hu");
+      // Reload page to restore original Hungarian text
+      window.location.reload();
     }
   };
 
   return (
-    <button onClick={translatePage}>
-      {lang === "hu" ? "English" : "Magyar"}
+    <button
+      onClick={toggleLanguage}
+      disabled={loading}
+      style={{ marginLeft: 8 }}
+    >
+      {loading
+        ? "Translating..."
+        : language === "hu"
+        ? "English"
+        : "Magyar"}
     </button>
   );
 }
