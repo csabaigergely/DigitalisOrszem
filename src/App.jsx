@@ -5,44 +5,47 @@ import Home from "./pages/Home";
 import TopicPage from "./pages/TopicPage";
 import Admin from "./pages/Admin";
 import Header from "./components/Header";
-import TranslateButton from "./components/TranslateButton";
 import { auth } from "./firebase";
 import { onAuthStateChanged } from "firebase/auth";
 
 export default function App() {
-  const [search, setSearch] = useState("");
-  const [user, setUser] = useState(null);
-  const [authReady, setAuthReady] = useState(false);
-  const [language, setLanguage] = useState("hu");
+    const [search, setSearch] = useState("");
+    const [user, setUser] = useState(null);
+    const [authReady, setAuthReady] = useState(false);
+    const [language, setLanguage] = useState("hu"); // <-- add this
 
-  useEffect(() => {
-    const unsub = onAuthStateChanged(auth, (u) => {
-      setUser(u);
-      setAuthReady(true);
-    });
-    return () => unsub();
-  }, []);
+    useEffect(() => {
+        const unsub = onAuthStateChanged(auth, (u) => {
+            setUser(u);
+            setAuthReady(true);
+        });
+        return () => unsub();
+    }, []);
 
-  if (!authReady) return null;
+    if (!authReady) return null;
 
-  return (
-    <div className="app-root">
-      <Header search={search} setSearch={setSearch} user={user}>
-        <TranslateButton language={language} setLanguage={setLanguage} />
-      </Header>
+    return (
+        <div className="app-root">
+            <Header
+                search={search}
+                setSearch={setSearch}
+                user={user}
+                language={language}          // <-- pass language
+                setLanguage={setLanguage}    // <-- pass setter
+            />
 
-      <main className="container">
-        <Routes>
-          <Route path="/" element={<Home search={search} user={user} />} />
-          <Route path="/topic/:slug" element={<TopicPage user={user} />} />
-          <Route path="/admin" element={<Admin user={user} />} />
-          <Route path="/profile" element={<ProfilePage user={user} />} />
-        </Routes>
-      </main>
+            <main className="container">
+                <Routes>
+                    <Route path="/" element={<Home search={search} user={user} />} />
+                    <Route path="/topic/:slug" element={<TopicPage user={user} />} />
+                    <Route path="/admin" element={<Admin user={user} />} />
+                    <Route path="/profile" element={<ProfilePage user={user} />} />
+                </Routes>
+            </main>
 
-      <footer className="site-footer">
-        <p>© {new Date().getFullYear()} Digitális Őrszem</p>
-      </footer>
-    </div>
-  );
+            <footer className="site-footer">
+                <p>© {new Date().getFullYear()} Digitális Őrszem</p>
+            </footer>
+        </div>
+    );
 }

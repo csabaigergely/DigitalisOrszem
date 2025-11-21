@@ -4,7 +4,7 @@ import LoginModal from "./LoginModal";
 import { logout } from "../firebase";
 import TranslateButton from "./TranslateButton";
 
-export default function Header({ search, setSearch, user }) {
+export default function Header({ search, setSearch, user, language, setLanguage }) {
     const [showLogin, setShowLogin] = useState(false);
 
     return (
@@ -25,7 +25,7 @@ export default function Header({ search, setSearch, user }) {
                 </Link>
 
                 <div className="header-right">
-                    <TranslateButton />
+                    <TranslateButton language={language} setLanguage={setLanguage} />
 
                     {!user ? (
                         <button onClick={() => setShowLogin(true)} className="header-button">
