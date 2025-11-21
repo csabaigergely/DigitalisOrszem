@@ -65,11 +65,11 @@ export default function Home({ search, user, translations }) {
             <section className="about">
                 <h3>{t.aboutTitle || "Rólunk"}</h3>
 
-                <p>{t.aboutP1 || "Az eredeti hosszú szöveg…"}</p>
+                <p>{t.aboutP1 || "Előfordult már Önnel, hogy egy internetes applikáció által kínált ingyenes próbaidőszak lejárta után egyszerűen nem találta azt a bizonyos “előfizetés lemondása” menüpontot? Vagy esetleg olyan, hogy az online vásárlás legvégén vett csak észre egy plusz tételt a kosarában, amelyet biztosan nem Ön tett bele? Esetleg találkozott már olyan bűntudatkeltő üzenettel, amely igyekezett eltántorítani attól, hogy leiratkozzon egy hírlevélről?"}</p>
 
                 <div className="fancy-divider">— ✦ —</div>
 
-                <p>{t.aboutP2 || "Második szövegrész…"}</p>
+                <p>{t.aboutP2 || "Az ilyen helyzetek ritkán a véletlen művei, sokkal inkább tudatos, technológiai tervezés eredményei: ezek az ún, “sötét minták”, vagyis a dark patterns. A jelenségre Harry Brignull UX-tervező hívta fel a figyelmet, aki így nevezi azokat az etikátlan felhasználói felületmegoldásokat, amelyek célja, hogy a felhasználókat manipulatív módon, pszichológiai trükkökkel és megtévesztő dizájnnal befolyásolják a saját érdekeivel szembemenő döntések meghozására a profit növelése érdekében."}</p>
             </section>
         </div>
     );
