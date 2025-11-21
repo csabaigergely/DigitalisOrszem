@@ -34,6 +34,12 @@ export default function Comments({ slug, user, translations }) {
         setText("");
     }
 
+    // Format date nicely
+    const formatDate = (d) => {
+        const date = d.toDate ? d.toDate() : d;
+        return new Date(date).toLocaleString();
+    }
+
     return (
         <div className="comments-block">
             <h3>{translations.comments || "Hozzászólások"}</h3>
@@ -56,6 +62,7 @@ export default function Comments({ slug, user, translations }) {
                     <div key={c.id} className="comment-item">
                         <p className="comment-user">{c.user}</p>
                         <p className="comment-text">{c.text}</p>
+                        <span className="comment-date">{formatDate(c.createdAt)}</span>
                     </div>
                 ))}
             </div>
