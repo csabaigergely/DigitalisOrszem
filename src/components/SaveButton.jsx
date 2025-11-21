@@ -21,7 +21,6 @@ async function toggleSave(e) {
 e.preventDefault();
 e.stopPropagation();
 
-```
 if (!user) return alert(t.mustLogin || "Jelentkezz be a mentéshez.");
 
 const ref = doc(db, "users", user.uid, "saved", topic.slug);
@@ -36,7 +35,6 @@ if (!saved) {
   await deleteDoc(ref);
   setSaved(false);
 }
-```
 
 }
 

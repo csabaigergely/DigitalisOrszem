@@ -36,6 +36,7 @@ export default function Header({ search, setSearch, user, language, setLanguage 
                             <Link
                                 to="/profile"
                                 title="Profil"
+                                className="profile-button"
                                 style={{
                                     width: 38,
                                     height: 38,

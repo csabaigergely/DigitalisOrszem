@@ -171,7 +171,6 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     margin: 0;
     color: var(--muted);
     text-decoration: none;
-    pointer-events: none; /* optional, so clicks pass through to the sides */
 }
 
 
@@ -380,4 +379,23 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 .error {
   color: salmon;
   margin-top: 10px;
+}
+
+.profile-button {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.18);
+    color: var(--muted);
+    transition: all 0.25s ease;
+}
+
+.profile-button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    box-shadow: 0 0 14px rgba(201,184,154,0.4); /* optional subtle glow */
+    background: rgba(201,184,154,0.05);
 }
