@@ -18,29 +18,49 @@ export default function App() {
   const [language, setLanguage] = useState("hu");
   const [translations, setTranslations] = useState({});
 
+  // 🌐 Alap magyar szövegek — ezeket fogjuk angolra fordítani
+  const baseHu = {
+    availableTopics: "Elérhető Témák",
+    loading: "Keresés...",
+    loadMore: "Több betöltése",
+    aboutTitle: "Rólunk",
+    aboutP1: "Az eredeti hosszú szöveg…",
+    aboutP2: "Második szövegrész…",
+    footerTitle: "Digitális Őrszem"
+  };
+
   useEffect(() => {
     const savedLang = localStorage.getItem("language");
     if (savedLang) setLanguage(savedLang);
 
     const savedTranslations = localStorage.getItem("translations");
     if (savedTranslations) setTranslations(JSON.parse(savedTranslations));
+    else setTranslations(baseHu); // első betöltéskor használja a magyar alapot
   }, []);
 
-  // 🔥 AI-fordítás hívása
+  // 🔥 AI-fordítás hívása (JAVÍTVA — most működni fog)
   const translateUI = async () => {
-    const response = await fetch("/translate", {
-    method: "POST",
-    headers: {"Content-Type": "application/json"},
-    body: JSON.stringify({ text })
-});
+    try {
+      const response = await fetch("/translate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          text: JSON.stringify(baseHu)
+        })
+      });
 
-    const data = await response.json();
+      const data = await response.json();
 
-    setTranslations(data);
-    setLanguage("en");
+      const translated = JSON.parse(data.translatedText);
 
-    localStorage.setItem("language", "en");
-    localStorage.setItem("translations", JSON.stringify(data));
+      setTranslations(translated);
+      setLanguage("en");
+
+      localStorage.setItem("language", "en");
+      localStorage.setItem("translations", JSON.stringify(translated));
+    } catch (err) {
+      console.error("Translation error:", err);
+    }
   };
 
   // 🔥 Firebase auth figyelése
@@ -67,13 +87,9 @@ export default function App() {
 
       <main className="container">
         <Routes>
-          <Route path="/" element={<Home search={search} user={user} />} />
-          <Route path="/topic/:slug" element={<TopicPage user={user} />} />
-          <Route path="/admin" element={<Admin user={user} />} />
-          <Route path="/profile" element={<ProfilePage user={user} />} />
           <Route path="/" element={<Home search={search} user={user} translations={translations} />} />
           <Route path="/topic/:slug" element={<TopicPage user={user} translations={translations} />} />
-          <Route path="/admin" element={<Admin translations={translations} />} />
+          <Route path="/admin" element={<Admin user={user} translations={translations} />} />
           <Route path="/profile" element={<ProfilePage user={user} translations={translations} />} />
         </Routes>
       </main>
