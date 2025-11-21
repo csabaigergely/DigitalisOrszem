@@ -1,6 +1,14 @@
-export async function onRequestPost({ request }) {
+// netlify/functions/translate.js
+export async function handler(event, context) {
+  if (event.httpMethod !== "POST") {
+    return {
+      statusCode: 405,
+      body: JSON.stringify({ error: "Only POST allowed" }),
+    };
+  }
+
   try {
-    const { q, source, target } = await request.json();
+    const { q, source, target } = JSON.parse(event.body);
 
     const res = await fetch("https://libretranslate.de/translate", {
       method: "POST",
@@ -10,15 +18,18 @@ export async function onRequestPost({ request }) {
 
     const data = await res.json();
 
-    return new Response(JSON.stringify(data), {
+    return {
+      statusCode: 200,
       headers: {
-        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type",
       },
-    });
+      body: JSON.stringify(data),
+    };
   } catch (err) {
-    return new Response(
-      JSON.stringify({ error: err.message, translatedText: q }),
-      { status: 500, headers: { "Content-Type": "application/json" } }
-    );
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: err.message }),
+    };
   }
 }
