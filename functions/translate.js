@@ -14,15 +14,10 @@ export async function onRequestPost(context) {
 
         for (const t of texts) {
             try {
-                const res = await fetch("https://libretranslate.de/translate", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        q: t,
-                        source: "hu",
-                        target: "en",
-                        format: "text"
-                    })
+                const res = await fetch("/api/translate", { // note the /api/ prefix for Pages Functions
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ texts }),
                 });
 
                 const json = await res.json();

@@ -53,33 +53,32 @@ export default function App() {
     };
 
     const translateUI = async () => {
-      // wait a tiny bit to make sure all React content is rendered
-      setTimeout(async () => {
-        const textNodes = extractTextNodes(document.body);
-        if (textNodes.length === 0) return;
+      const walker = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_TEXT,
+        { acceptNode: n => n.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT },
+        false
+      );
 
-        const texts = textNodes.map(t => t.text);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
 
-        try {
-          const res = await fetch("/translate", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ texts }),
-          });
+      if (!nodes.length) return;
 
-          const data = await res.json();
-          if (!data.translatedTexts) throw new Error("No translatedTexts returned");
+      try {
+        const res = await fetch("/api/translate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ texts: nodes.map(n => n.nodeValue) }),
+        });
 
-          textNodes.forEach((item, i) => {
-            item.node.nodeValue = data.translatedTexts[i];
-          });
-
-          setLanguage(language === "hu" ? "en" : "hu");
-        } catch (err) {
-          console.error("UI translation failed:", err);
-        }
-      }, 100); // 100ms delay ensures React has rendered all components
+        const data = await res.json();
+        nodes.forEach((n, i) => n.nodeValue = data.translatedTexts[i]);
+      } catch (err) {
+        console.error("UI translation failed:", err);
+      }
     };
+
 
 
     useEffect(() => {

@@ -7,6 +7,11 @@ import TwoColumn from "../components/TwoColumnSection";
 import Comments from "../components/Comments";
 import SaveButton from "../components/SaveButton";
 
+marked.setOptions({
+  mangle: false,
+  headerIds: false
+});
+
 export default function TopicPage({ user, translations }) {
     const t = translations || {};   // <-- SAFE FALLBACK
 
