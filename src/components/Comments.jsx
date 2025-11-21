@@ -45,7 +45,7 @@ export default function Comments({ slug, user, translations }) {
                 onChange={(e) => setText(e.target.value)}
             />
 
-           <div className="comment-button-wrap">
+            <div className="comment-button-wrap">
                 <button className="comment-submit-button" onClick={send}>
                     {translations.sendComment || "Küldés"}
                 </button>
@@ -55,7 +55,7 @@ export default function Comments({ slug, user, translations }) {
                 {comments.map(c => (
                     <div key={c.id} className="comment-item">
                         <p className="comment-user">{c.user}</p>
-                        <p>{c.text}</p>
+                        <p className="comment-text">{c.text}</p>
                     </div>
                 ))}
             </div>
