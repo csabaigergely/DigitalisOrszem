@@ -3,13 +3,11 @@ import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { Link } from "react-router-dom";
 
-export default function ProfilePage({ user, translations }) {
-    const t = translations || {};   // <-- SAFE FALLBACK
-
+export default function ProfilePage({ user }) {
     const [saved, setSaved] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    if (!user) return <p>{t.mustLogin || "Be kell jelentkezned..."}</p>;
+    if (!user) return <p>Be kell jelentkezned...</p>;
 
     useEffect(() => {
         async function load() {
@@ -23,36 +21,29 @@ export default function ProfilePage({ user, translations }) {
 
     return (
         <div className="container">
-            <h1>{t.profile || "Profil"}</h1>
-            <p>{t.email || "Email"}: {user.email}</p>
-            <p>{t.welcomeBack || "Üdv újra!"}</p>
+            <h1>Profil</h1>
+            <p>Email: {user.email}</p>
+            <p>Üdv újra!</p>
 
-            <h2 style={{ marginTop: 30 }}>
-                {t.savedTopics || "Elmentett témák"}
-            </h2>
+            <h2 style={{ marginTop: 30 }}>Elmentett témák</h2>
 
             {loading ? (
-                <p>{t.loading || "Betöltés..."}</p>
+                <p>Betöltés...</p>
             ) : saved.length === 0 ? (
                 <p style={{ marginTop: 20, fontStyle: "italic", color: "var(--muted)" }}>
-                    {t.noSavedTopics ||
-                        "Jelenleg nincs elmentett témád. Fedezd fel tartalmainkat..."}
+                    Jelenleg nincs elmentett témád. Fedezd fel tartalmainkat...
                 </p>
             ) : (
                 <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 10 }}>
                     {saved.map(item => (
-                        <Link
-                            key={item.slug}
-                            to={`/topic/${item.slug}`}
-                            style={{
-                                padding: 14,
-                                borderRadius: 0,
-                                background: "var(--panel)",
-                                textDecoration: "none",
-                                color: "var(--text)",
-                                display: "block"
-                            }}
-                        >
+                        <Link key={item.slug} to={`/topic/${item.slug}`} style={{
+                            padding: 14,
+                            borderRadius: 0,
+                            background: "var(--panel)",
+                            textDecoration: "none",
+                            color: "var(--text)",
+                            display: "block"
+                        }}>
                             {item.title}
                         </Link>
                     ))}
