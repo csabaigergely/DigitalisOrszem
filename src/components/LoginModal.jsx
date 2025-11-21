@@ -1,7 +1,7 @@
 // src/components/LoginModal.jsx
 import React, { useState } from "react";
 import { registerWithEmail, loginWithEmail } from "../firebase";
-import "./LoginModal.css";
+
 
 export default function LoginModal({ visible, onClose }) {
   const [mode, setMode] = useState("login"); 
