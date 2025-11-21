@@ -452,41 +452,41 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
 .comment-list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
 }
 
 .comment-item {
-    position: relative;
     background: var(--panel);
-    padding: 12px 16px 20px 16px; /* extra bottom space for date */
-    border-radius: 10px;
-    border: 1px solid rgba(191,174,146,0.35);
-    transition: all 0.25s ease;
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 12px 16px;
+    border-radius: 8px;
+    position: relative;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .comment-item:hover {
-    box-shadow: 0 6px 20px rgba(201, 184, 154, 0.25);
     transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(201,184,154,0.15);
 }
 
 .comment-user {
     font-weight: 600;
     color: var(--accent);
-    margin: 0 0 6px 0;
+    margin-bottom: 4px;
+    display: block;
 }
 
 .comment-text {
-    margin: 0;
-    font-size: 0.95rem;
+    margin: 0 0 24px 0;
     color: var(--text);
-    line-height: 1.4;
 }
 
 .comment-date {
     position: absolute;
     bottom: 8px;
     right: 12px;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     color: var(--muted);
 }
+
 

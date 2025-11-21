@@ -60,7 +60,9 @@ export default function Comments({ slug, user, translations }) {
             <div className="comment-list">
                 {comments.map(c => (
                     <div key={c.id} className="comment-item">
-                        <p className="comment-user">{c.user}</p>
+                        <div className="comment-header">
+                            <span className="comment-user">{c.user || "Anonim"}</span>
+                        </div>
                         <p className="comment-text">{c.text}</p>
                         <span className="comment-date">{formatDate(c.createdAt)}</span>
                     </div>
