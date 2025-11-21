@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import SaveButton from "../components/SaveButton";
 
 export default function TopicCard({ topic, user, translations }) {
+    const t = translations || {};   // <-- SAFE
+
     const createdDate = topic.createdAt
         ? new Date(topic.createdAt.seconds * 1000).toLocaleDateString("hu-HU")
         : null;
@@ -18,7 +20,7 @@ export default function TopicCard({ topic, user, translations }) {
                         <SaveButton 
                             user={user} 
                             topic={topic}
-                            translations={translations}
+                            translations={t}
                         />
                     </div>
                 </div>

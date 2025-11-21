@@ -8,6 +8,8 @@ import Comments from "../components/Comments";
 import SaveButton from "../components/SaveButton";
 
 export default function TopicPage({ user, translations }) {
+    const t = translations || {};   // <-- SAFE FALLBACK
+
     const { slug } = useParams();
     const [topic, setTopic] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -21,8 +23,8 @@ export default function TopicPage({ user, translations }) {
         load();
     }, [slug]);
 
-    if (loading) return <p>{translations.loading || "Keresés..."}</p>;
-    if (!topic) return <p>{translations.notFound || "Nem található"}</p>;
+    if (loading) return <p>{t.loading || "Keresés..."}</p>;
+    if (!topic) return <p>{t.notFound || "Nem található"}</p>;
 
     const intro = marked.parse(topic.intro || "");
     const left = marked.parse(topic.itAnalysis || "");
@@ -35,10 +37,10 @@ export default function TopicPage({ user, translations }) {
             <TwoColumn leftHtml={left} rightHtml={right} />
 
             <div style={{ marginTop: 40, marginBottom: 40 }}>
-                <SaveButton user={user} topic={topic} translations={translations} />
+                <SaveButton user={user} topic={topic} translations={t} />
             </div>
 
-            <Comments slug={slug} user={user} translations={translations} />
+            <Comments slug={slug} user={user} translations={t} />
         </article>
     );
 }

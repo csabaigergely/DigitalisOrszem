@@ -8,6 +8,9 @@ export default function Home({ search, user, translations }) {
     const [visible, setVisible] = useState(10);
     const [loading, setLoading] = useState(true);
 
+    // Biztonságos fallback objektumok
+    const t = translations || {};
+    
     useEffect(() => {
         async function load() {
             const q = query(collection(db, "topics"), orderBy("createdAt", "desc"));
@@ -29,20 +32,20 @@ export default function Home({ search, user, translations }) {
         <div className="home">
             <div className="top-row">
                 <h2 className="section-title">
-                    {translations.availableTopics || "Elérhető Témák"}
+                    {t.availableTopics || "Elérhető Témák"}
                 </h2>
             </div>
 
             {loading ? (
-                <p>{translations.loading || "Keresés..."}</p>
+                <p>{t.loading || "Keresés..."}</p>
             ) : (
                 <div className="topic-grid">
-                    {shown.map(t => (
-                        <TopicCard 
-                            key={t.slug || t.id} 
-                            topic={t}
+                    {shown.map(topic => (
+                        <TopicCard
+                            key={topic.slug || topic.id}
+                            topic={topic}
                             user={user}
-                            translations={translations}
+                            translations={t}
                         />
                     ))}
                 </div>
@@ -54,19 +57,19 @@ export default function Home({ search, user, translations }) {
                         className="load-more"
                         onClick={() => setVisible(v => v + 10)}
                     >
-                        {translations.loadMore || "Több betöltése"}
+                        {t.loadMore || "Több betöltése"}
                     </button>
                 </div>
             )}
 
             <section className="about">
-                <h3>{translations.aboutTitle || "Rólunk"}</h3>
+                <h3>{t.aboutTitle || "Rólunk"}</h3>
 
-                <p>{translations.aboutP1 || "Az eredeti hosszú szöveg…"}</p>
+                <p>{t.aboutP1 || "Az eredeti hosszú szöveg…"}</p>
 
                 <div className="fancy-divider">— ✦ —</div>
 
-                <p>{translations.aboutP2 || "Második szövegrész…"}</p>
+                <p>{t.aboutP2 || "Második szövegrész…"}</p>
             </section>
         </div>
     );

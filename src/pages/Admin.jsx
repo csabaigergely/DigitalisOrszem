@@ -3,6 +3,8 @@ import { collection, addDoc, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
 export default function Admin({ translations }) {
+    const t = translations || {};   // <-- SAFE
+
     const [topics, setTopics] = useState([]);
     const [title, setTitle] = useState("");
     const [slug, setSlug] = useState("");
@@ -16,7 +18,7 @@ export default function Admin({ translations }) {
     }, []);
 
     async function addTopic() {
-        if (!title || !slug) return alert(translations.missingFields || "Hiányzó mezők!");
+        if (!title || !slug) return alert(t.missingFields || "Hiányzó mezők!");
 
         await addDoc(collection(db, "topics"), {
             title,
@@ -27,27 +29,27 @@ export default function Admin({ translations }) {
             legalAnalysis: ""
         });
 
-        alert(translations.topicAdded || "Téma létrehozva!");
+        alert(t.topicAdded || "Téma létrehozva!");
     }
 
     return (
         <div className="container">
-            <h1>{translations.adminPanel || "Admin Felület"}</h1>
+            <h1>{t.adminPanel || "Admin Felület"}</h1>
 
             <div className="panel-block">
-                <label>{translations.title || "Cím"}:</label>
+                <label>{t.title || "Cím"}:</label>
                 <input value={title} onChange={(e) => setTitle(e.target.value)} />
 
-                <label>{translations.slug || "Slug"}:</label>
+                <label>{t.slug || "Slug"}:</label>
                 <input value={slug} onChange={(e) => setSlug(e.target.value)} />
 
                 <button onClick={addTopic}>
-                    {translations.addTopic || "Téma hozzáadása"}
+                    {t.addTopic || "Téma hozzáadása"}
                 </button>
             </div>
 
             <h2 style={{ marginTop: 40 }}>
-                {translations.existingTopics || "Meglévő témák"}
+                {t.existingTopics || "Meglévő témák"}
             </h2>
 
             <ul>
