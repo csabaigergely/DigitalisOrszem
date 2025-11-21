@@ -4,17 +4,13 @@ import { db } from "../firebase";
 
 export default function SaveButton({ user, topic, translations }) {
 const t = translations || {}; // SAFE fallback
-
 const [saved, setSaved] = useState(false);
 
 useEffect(() => {
-if (!user) {
-setSaved(false);
-return;
-}
+if (!user) { setSaved(false); return; }
 let mounted = true;
 const check = async () => {
-const d = await getDoc(doc(db, `users/${user.uid}/saved`, topic.slug));
+const d = await getDoc(doc(db, "users", user.uid, "saved", topic.slug));
 if (mounted) setSaved(d.exists());
 };
 check();
@@ -26,20 +22,20 @@ e.preventDefault();
 e.stopPropagation();
 
 ```
-if (!user) return alert(t.mustLogin || "Jelentkezz be a mentéshez.");  
+if (!user) return alert(t.mustLogin || "Jelentkezz be a mentéshez.");
 
-const ref = doc(db, `users/${user.uid}/saved`, topic.slug);  
-if (!saved) {  
-  await setDoc(ref, {  
-    slug: topic.slug,  
-    title: topic.title,  
-    savedAt: new Date()  
-  });  
-  setSaved(true);  
-} else {  
-  await deleteDoc(ref);  
-  setSaved(false);  
-}  
+const ref = doc(db, "users", user.uid, "saved", topic.slug);
+if (!saved) {
+  await setDoc(ref, {
+    slug: topic.slug,
+    title: topic.title,
+    savedAt: new Date()
+  });
+  setSaved(true);
+} else {
+  await deleteDoc(ref);
+  setSaved(false);
+}
 ```
 
 }
