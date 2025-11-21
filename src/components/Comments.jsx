@@ -25,16 +25,16 @@ export default function Comments({ slug, user, translations }) {
         }
         if (!text.trim()) return;
 
+        // Store the displayName if available, fallback to email
         await addDoc(collection(db, `topics/${slug}/comments`), {
             text,
-            user: user.email,
+            user: user.displayName || user.email,
             createdAt: new Date()
         });
 
         setText("");
     }
 
-    // Format date nicely
     const formatDate = (d) => {
         const date = d.toDate ? d.toDate() : d;
         return new Date(date).toLocaleString();
