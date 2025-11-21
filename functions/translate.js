@@ -1,67 +1,33 @@
-// functions/translate.js
-
+// /functions/translate.js
 export async function onRequestPost(context) {
     try {
-        // Try to parse request body
-        let body = {};
-        try {
-            body = await context.request.json();
-        } catch (err) {
-            return new Response(
-                JSON.stringify({ error: "Invalid JSON in request body", details: err.message }),
-                { status: 400, headers: { "Content-Type": "application/json" } }
-            );
-        }
-
+        const body = await context.request.json();
         const text = body.text || "";
 
-        // Log for debugging
-        console.log("Received text:", text);
+        console.log("Received text:", text.substring(0, 100));
 
-        const apiKey = context.env.OPENAI_API_KEY;
-        if (!apiKey) {
-            return new Response(JSON.stringify({ error: "Missing OPENAI_API_KEY" }), {
-                status: 500,
-                headers: { "Content-Type": "application/json" }
-            });
-        }
-
-        // Call OpenAI
-        const response = await fetch("https://api.openai.com/v1/chat/completions", {
+        const response = await fetch("https://translate.astian.org/translate", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
-                "Authorization": `Bearer ${apiKey}`
+                "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                model: "gpt-4o-mini",
-                messages: [
-                    { role: "system", content: "Translate the following text to English. Keep meaning unchanged." },
-                    { role: "user", content: text }
-                ]
+                q: text,
+                source: "hu",
+                target: "en",
+                format: "text"
             })
         });
 
-        const raw = await response.text();  // Read as text!
-        console.log("OpenAI raw response:", raw);
+        const data = await response.json();
 
-        let data;
-        try {
-            data = JSON.parse(raw);
-        } catch {
-            return new Response(
-                JSON.stringify({ error: "OpenAI returned invalid JSON", raw }),
-                { status: 500, headers: { "Content-Type": "application/json" } }
-            );
-        }
+        console.log("LibreTranslate response:", data);
 
-        return new Response(
-            JSON.stringify({ translatedText: data.choices?.[0]?.message?.content || "" }),
-            { headers: { "Content-Type": "application/json" } }
-        );
+        return new Response(JSON.stringify({ translatedText: data.translatedText }), {
+            headers: { "Content-Type": "application/json" }
+        });
 
     } catch (err) {
-        console.error("Fatal error:", err);
         return new Response(JSON.stringify({ error: err.message }), {
             status: 500,
             headers: { "Content-Type": "application/json" }
