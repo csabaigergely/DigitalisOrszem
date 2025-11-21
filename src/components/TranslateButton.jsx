@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-export default function TranslateButton({ language, setLanguage }) {
+export default function TranslateButton({ language, setLanguage, className }) {
   const [loading, setLoading] = useState(false);
   const originalTexts = useRef(new Map());
 
@@ -48,7 +48,7 @@ export default function TranslateButton({ language, setLanguage }) {
   };
 
   return (
-    <button onClick={toggleLanguage} disabled={loading}>
+    <button onClick={toggleLanguage} disabled={loading} className={className}>
       {loading ? "Translating..." : language === "hu" ? "English" : "Magyar"}
     </button>
   );

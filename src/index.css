@@ -158,16 +158,20 @@ body{background:var(--bg);color:var(--text);font-family: 'Cormorant Garamond', s
     opacity: 0.9;
 }
 
-/* KÖZÉPRE IGAZÍTOTT FŐCÍM */
+/* HEADER TITLE CENTERING */
 .site-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     font-family: 'Playfair Display', serif;
     font-size: 2.2rem;
     letter-spacing: 2px;
     margin: 0;
-
     color: var(--muted);
     text-decoration: none;
+    pointer-events: none; /* optional, so clicks pass through to the sides */
 }
+
 
 /* SEARCH BAR – régi stílus visszaállítva */
 .header-search-input {

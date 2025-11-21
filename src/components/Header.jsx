@@ -25,7 +25,7 @@ export default function Header({ search, setSearch, user, language, setLanguage 
                 </Link>
 
                 <div className="header-right">
-                    <TranslateButton language={language} setLanguage={setLanguage} />
+                    <TranslateButton language={language} setLanguage={setLanguage} className="header-button"/>
 
                     {!user ? (
                         <button onClick={() => setShowLogin(true)} className="header-button">
