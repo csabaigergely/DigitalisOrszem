@@ -1,64 +1,55 @@
-// src/components/TranslateButton.jsx
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 export default function TranslateButton({ language, setLanguage }) {
   const [loading, setLoading] = useState(false);
+  const originalTexts = useRef(new Map());
 
   const toggleLanguage = async () => {
+    if (!setLanguage) return; // safety check
     const newLang = language === "hu" ? "en" : "hu";
     setLanguage(newLang);
 
-    // Find all text nodes and translate them
     if (newLang === "en") {
       setLoading(true);
-      const nodes = document.createTreeWalker(
-        document.body,
-        NodeFilter.SHOW_TEXT,
-        null,
-        false
-      );
+      const container = document.querySelector("main.container");
+      if (!container) return;
 
-      const textNodes = [];
-      while (nodes.nextNode()) {
-        const n = nodes.currentNode;
-        if (n.nodeValue.trim().length > 0) textNodes.push(n);
-      }
+      const elements = container.querySelectorAll("*:not(script):not(style)");
 
-      for (let node of textNodes) {
-        try {
-          const res = await fetch("/.netlify/functions/translate", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              q: node.nodeValue,
-              source: "hu",
-              target: "en",
-            }),
-          });
-          const data = await res.json();
-          node.nodeValue = data.translatedText || node.nodeValue;
-        } catch (err) {
-          console.error("Translation failed", err);
+      for (let el of elements) {
+        if (el.children.length === 0 && el.textContent.trim().length > 0) {
+          if (!originalTexts.current.has(el)) {
+            originalTexts.current.set(el, el.textContent);
+          }
+          try {
+            const res = await fetch("/.netlify/functions/translate", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                q: el.textContent,
+                source: "hu",
+                target: "en",
+              }),
+            });
+            const data = await res.json();
+            el.textContent = data.translatedText || el.textContent;
+          } catch (err) {
+            console.error("Translation failed", err);
+          }
         }
       }
       setLoading(false);
     } else {
-      // Reload page to restore original Hungarian text
-      window.location.reload();
+      // revert to original texts
+      originalTexts.current.forEach((txt, el) => {
+        el.textContent = txt;
+      });
     }
   };
 
   return (
-    <button
-      onClick={toggleLanguage}
-      disabled={loading}
-      style={{ marginLeft: 8 }}
-    >
-      {loading
-        ? "Translating..."
-        : language === "hu"
-        ? "English"
-        : "Magyar"}
+    <button onClick={toggleLanguage} disabled={loading}>
+      {loading ? "Translating..." : language === "hu" ? "English" : "Magyar"}
     </button>
   );
 }
